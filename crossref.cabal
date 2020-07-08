@@ -32,6 +32,7 @@ library
                      , time
                      , lrucaching
                      , network-uri
+                     , vector
   hs-source-dirs:      src
   default-language:    Haskell2010
 
