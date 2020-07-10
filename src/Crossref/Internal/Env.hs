@@ -15,25 +15,34 @@ import           Data.Time               (UTCTime, getCurrentTime)
 import           GHC.Generics            (Generic)
 import           Network.HTTP.Client     (Manager)
 import           Network.HTTP.Client.TLS (newTlsManager)
+import           System.IO               (hPutStrLn, stderr)
+import qualified System.LogLevel         as LogLevel
 
-import Crossref.Internal.API (CrossrefSingleton)
+import           Crossref.Internal.API   (CrossrefSingleton, DOI, Error(..), ListQuery(..), CrossrefList(..), Log(..))
 
 
-makeDefaultEnv :: IO Env
-makeDefaultEnv = do
-    rateLimitNextOkTime  <- IORef.newIORef =<< getCurrentTime
-    accessLock <- newMVar ()
-    manager   <- newTlsManager
-    cache <- newLruHandle 500
-    return $ Env { manager, cache, rateLimitNextOkTime, accessLock }
 
 
 data Env = Env
   { manager             :: Manager
-  , cache               :: LruHandle Text CrossrefSingleton
+  , cacheSingleton      :: LruHandle DOI   CrossrefSingleton
+  , cacheList           :: LruHandle ListQuery CrossrefList
   , rateLimitNextOkTime :: IORef.IORef UTCTime
   , accessLock          :: MVar ()
+  , logMessage          :: Log -> IO ()
   }
 
 instance Show Env where
   show _ = "\"<crossref env>\""
+
+makeDefaultEnv :: IO Env
+makeDefaultEnv = do
+    rateLimitNextOkTime  <- IORef.newIORef =<< getCurrentTime
+    accessLock           <- newMVar ()
+    manager              <- newTlsManager
+    cacheSingleton       <- newLruHandle 500
+    cacheList            <- newLruHandle 500
+    let
+      logMessage Log{ level, query, error_ } =
+        hPutStrLn stderr $ show (level, query, error_)
+    return $ Env { manager, cacheSingleton, cacheList, rateLimitNextOkTime, accessLock, logMessage }
