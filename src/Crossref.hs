@@ -10,9 +10,31 @@ module Crossref (
   , doi
   , search
   , makeDefaultEnv
+ 
   , DOI(..)
   , ListQuery(..)
-  , CrossrefSingleton
+  , CrossrefSingleton(..)
+  , CrossrefList(..)
+  , Error(..)
+
+  , MessageList(..)
+  , Message(..)
+  , Contributor(..)
+  , Affiliation(..)
+  , Date(..)
+  , PartialDate(..)
+  , License(..)
+  , Review(..)
+  , ReviewStage(..)
+  , reviewStages
+  , ReviewRecommendation(..)
+  , reviewRecommendations
+  , ReviewType(..)
+  , reviewTypes
+  , DocumentType
+  , documentTypes
+  , documentTypeID
+
   ) where
 
 import           Control.Concurrent

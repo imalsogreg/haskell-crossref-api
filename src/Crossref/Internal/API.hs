@@ -250,25 +250,6 @@ instance Aeson.ToJSON License where
     , "content-version" Aeson..= contentVersion
     ]
 
--- "license": [
---       {
---         "URL": "http://creativecommons.org/licenses/by/4.0/",
---         "start": {
---           "date-parts": [
---             [
---               2020,
---               1,
---               21
---             ]
---           ],
---           "date-time": "2020-01-21T00:00:00Z",
---           "timestamp": 1579564800000
---         },
---         "delay-in-days": 0,
---         "content-version": "vor"
---       }
---     ],
-
 
 -- * Review
 
