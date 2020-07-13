@@ -7,7 +7,7 @@
 
 module Crossref (
     crossref
-  , doi
+  , lookupDOI
   , search
   , makeDefaultEnv
  
@@ -17,8 +17,8 @@ module Crossref (
   , CrossrefList(..)
   , Error(..)
 
-  , MessageList(..)
-  , Message(..)
+  , WorkList(..)
+  , Work(..)
   , Contributor(..)
   , Affiliation(..)
   , Date(..)
@@ -85,8 +85,8 @@ instance IsQuery ListQuery CrossrefList where
   toStructuredLog             = undefined
   queryToQueryString _ q      = "/types/journal-article/works?rows=10&query=" <> HttpApiData.toQueryParam (queryString q)
 
-doi :: Env -> DOI -> IO (Either Error CrossrefSingleton)
-doi = crossref
+lookupDOI :: Env -> DOI -> IO (Either Error CrossrefSingleton)
+lookupDOI = crossref
 
 search :: Env -> ListQuery -> IO (Either Error CrossrefList)
 search = crossref

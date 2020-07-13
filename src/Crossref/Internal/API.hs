@@ -75,7 +75,7 @@ instance Exception Error
 
 
 data CrossrefSingleton = CrossrefSingleton
-  { message        :: Message
+  { message        :: Work
   , status         :: Text.Text
   , messageVersion :: Text.Text
   } deriving (Show, Generic)
@@ -96,9 +96,9 @@ instance Aeson.ToJSON CrossrefSingleton where
                 )
 
 data CrossrefList = CrossrefList
-  { status :: Text.Text
+  { status         :: Text.Text
   , messageVersion :: Text.Text
-  , message :: MessageList
+  , message        :: WorkList
   } deriving (Show, Generic)
 
 instance Aeson.ToJSON CrossrefList where
@@ -116,20 +116,20 @@ instance Aeson.FromJSON CrossrefList where
     <*> o Aeson..: "message-version"
     <*> o Aeson..: "message"
 
-data MessageList = MessageList
+data WorkList = WorkList
   { totalResults :: Int
-  , items :: [Message]
+  , items :: [Work]
   } deriving (Show, Generic)
 
-instance Aeson.ToJSON MessageList where
-  toEncoding MessageList {totalResults, items} = Aeson.pairs ("total-results" Aeson..= totalResults <> "items" Aeson..= items)
+instance Aeson.ToJSON WorkList where
+  toEncoding WorkList {totalResults, items} = Aeson.pairs ("total-results" Aeson..= totalResults <> "items" Aeson..= items)
 
-instance Aeson.FromJSON MessageList where
-  parseJSON = Aeson.withObject "MessageList" $ \o -> MessageList
+instance Aeson.FromJSON WorkList where
+  parseJSON = Aeson.withObject "WorkList" $ \o -> WorkList
     <$> o Aeson..: "total-results"
     <*> o Aeson..: "items"
 
-data Message = Message
+data Work = Work
   { authors  :: [Contributor]
   , title    :: [Text.Text]
   , url      :: Text.Text
@@ -137,10 +137,11 @@ data Message = Message
   , created  :: Date
   , licenses :: [License]
   , type_    :: DocumentType
+  , doi      :: Text.Text
   } deriving (Show, Generic)
 
-instance Aeson.FromJSON Message where
-    parseJSON (Aeson.Object o) = Message
+instance Aeson.FromJSON Work where
+    parseJSON (Aeson.Object o) = Work
       <$> o Aeson..: "author"
       <*> o Aeson..: "title"
       <*> o Aeson..: "URL"
@@ -148,19 +149,21 @@ instance Aeson.FromJSON Message where
       <*> o Aeson..: "created"
       <*> (o Aeson..: "license" <|> pure [])
       <*> o Aeson..: "type"
+      <*> o Aeson..: "DOI"
 
-instance Aeson.ToJSON Message where
-  toJSON Message { authors, title, url, subject, created, licenses, type_ } =
-    Aeson.object $
-    [ "author"  Aeson..= authors
-    , "title"   Aeson..= title
-    , "URL"     Aeson..= url
-    , "subject" Aeson..= subject
-    , "created" Aeson..= created
-    , "type"    Aeson..= type_
-    ] <> case licenses of
-           [] -> []
-           _  -> ["license" Aeson..= licenses]
+instance Aeson.ToJSON Work where
+  toEncoding Work { authors, title, url, subject, created, licenses, type_, doi } =
+    Aeson.pairs $
+    ( "author"  Aeson..= authors
+    <> "title"   Aeson..= title
+    <> "URL"     Aeson..= url
+    <> "subject" Aeson..= subject
+    <> "created" Aeson..= created
+    <> "type"    Aeson..= type_
+    <> "DOI"     Aeson..= doi
+    ) <> case licenses of
+           [] -> mempty
+           _  -> "license" Aeson..= licenses
 
 
 data Contributor = Contributor
@@ -168,7 +171,7 @@ data Contributor = Contributor
   , family      :: Text.Text
   , orcid       :: Maybe Text.Text
   , affiliation :: [Affiliation]
-  } deriving (Eq, Ord, Show)
+  } deriving (Eq, Ord, Show, Generic)
 
 
 instance Aeson.FromJSON Contributor where
@@ -179,12 +182,12 @@ instance Aeson.FromJSON Contributor where
         <*> (o Aeson..:  "affiliation" <|> pure [])
 
 instance Aeson.ToJSON Contributor where
-  toJSON Contributor { given, family, orcid, affiliation } = Aeson.object
-    [ "given"       Aeson..= given
-    , "family"      Aeson..= family
-    , "orcid"       Aeson..= orcid
-    , "affiliation" Aeson..= affiliation
-    ]
+  toEncoding Contributor { given, family, orcid, affiliation } = Aeson.pairs
+    (  "given"       Aeson..= given
+    <> "family"      Aeson..= family
+    <> "orcid"       Aeson..= orcid
+    <> "affiliation" Aeson..= affiliation
+    )
 
 data Affiliation = Affiliation { name :: Text.Text }
   deriving (Eq, Ord, Show, Generic)
@@ -194,10 +197,10 @@ instance Aeson.FromJSON Affiliation where
     Affiliation <$> o Aeson..: "name"
 
 instance Aeson.ToJSON Affiliation where
-  toJSON Affiliation{ name } = Aeson.object ["name" Aeson..= name ]
+  toEncoding Affiliation{ name } = Aeson.pairs ("name" Aeson..= name )
 
 data Date = Date { unDate :: Time.Day }
-    deriving (Eq, Ord, Show)
+    deriving (Eq, Ord, Show, Generic)
 
 instance Aeson.FromJSON Date where
     parseJSON = Aeson.withObject "Date" $ \o -> do
@@ -207,8 +210,8 @@ instance Aeson.FromJSON Date where
             _           -> mzero
 
 instance Aeson.ToJSON Date where
-  toJSON (Time.toGregorian . unDate -> (y,m,d)) = Aeson.object
-    ["date-parts" Aeson..= [fromIntegral y,m,d]]
+  toEncoding (Time.toGregorian . unDate -> (y,m,d)) = Aeson.pairs
+    ("date-parts" Aeson..= [fromIntegral y,m,d])
 
 data PartialDate = PartialDate
   { year  :: Int
@@ -227,8 +230,8 @@ instance Aeson.FromJSON PartialDate where
 
 
 instance Aeson.ToJSON PartialDate where
-  toJSON PartialDate { year, month, day } = Aeson.object
-    ["date-parts" Aeson..= Maybe.catMaybes [Just year, month, day]]
+  toEncoding PartialDate { year, month, day } = Aeson.pairs
+    ("date-parts" Aeson..= Maybe.catMaybes [Just year, month, day])
 
 
 data License = License
@@ -244,11 +247,11 @@ instance Aeson.FromJSON License where
     <*> o Aeson..: "content-version"
 
 instance Aeson.ToJSON License where
-  toJSON License { url, delayInDays, contentVersion } = Aeson.object
-    ["URL"              Aeson..= url
-    ,"delay-in-days"    Aeson..= delayInDays
-    , "content-version" Aeson..= contentVersion
-    ]
+  toEncoding License { url, delayInDays, contentVersion } = Aeson.pairs
+    (  "URL"             Aeson..= url
+    <> "delay-in-days"   Aeson..= delayInDays
+    <> "content-version" Aeson..= contentVersion
+    )
 
 
 -- * Review
@@ -275,21 +278,22 @@ instance Aeson.FromJSON Review where
     <*> o Aeson..:? "language"
 
 instance Aeson.ToJSON Review where
-  toJSON Review { runningNumber
+  toEncoding Review { runningNumber
                 , revisionRound
                 , stage
                 , recommendation
                 , type_
                 , competingInterestStatement
                 , language
-                } = Aeson.object
-    [ "running-number"               Aeson..= runningNumber
-    , "revision-round"               Aeson..= revisionRound
-    , "stage"                        Aeson..= stage
-    , "recommendation"               Aeson..= recommendation
-    , "type"                         Aeson..= type_
-    , "competing-interest-statement" Aeson..= competingInterestStatement
-    , "language"                     Aeson..= language]
+                } = Aeson.pairs
+    (   "running-number"               Aeson..= runningNumber
+     <> "revision-round"               Aeson..= revisionRound
+     <> "stage"                        Aeson..= stage
+     <> "recommendation"               Aeson..= recommendation
+     <> "type"                         Aeson..= type_
+     <> "competing-interest-statement" Aeson..= competingInterestStatement
+     <> "language"                     Aeson..= language
+    )
 
 
 data ReviewStage = PrePublication | PostPublication
@@ -305,8 +309,8 @@ parseEnum enumName levels = Aeson.withText (Text.unpack enumName) $ \t ->
 
 reviewStages :: [(Text.Text, ReviewStage)]
 reviewStages = [ ("pre-publication",  PrePublication )
-              , ("post-publication", PostPublication)
-              ]
+               , ("post-publication", PostPublication)
+               ]
 
 instance Aeson.FromJSON ReviewStage where
   parseJSON = parseEnum "ReviewStage" reviewStages
