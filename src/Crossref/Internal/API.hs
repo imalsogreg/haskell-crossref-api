@@ -142,7 +142,7 @@ data Work = Work
 
 instance Aeson.FromJSON Work where
     parseJSON (Aeson.Object o) = Work
-      <$> o Aeson..: "author"
+      <$> (o Aeson..: "author" <|> pure [])
       <*> o Aeson..: "title"
       <*> o Aeson..: "URL"
       <*> (o Aeson..: "subject" <|> pure [])
@@ -154,7 +154,7 @@ instance Aeson.FromJSON Work where
 instance Aeson.ToJSON Work where
   toEncoding Work { authors, title, url, subject, created, licenses, type_, doi } =
     Aeson.pairs $
-    ( "author"  Aeson..= authors
+    (  "author"  Aeson..= authors
     <> "title"   Aeson..= title
     <> "URL"     Aeson..= url
     <> "subject" Aeson..= subject
