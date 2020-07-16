@@ -10,6 +10,7 @@ module Crossref (
   , lookupDOI
   , search
   , makeDefaultEnv
+  , Env(..)
  
   , DOI(..)
   , ListQuery(..)
