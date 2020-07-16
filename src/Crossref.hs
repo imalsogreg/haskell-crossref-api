@@ -138,7 +138,6 @@ crossref
                                       (realToFrac $ 1/ fromIntegral rate) tOk)
                           -- logMessage LogLevel.Info query Nothing $ Text.pack $ "Wrote rate " ++ show rate
                   _ -> return () -- logMessage LogLevel.Info query Nothing "No rate"
-                print (HTTP.responseBody resp)
                 case Aeson.eitherDecode (HTTP.responseBody resp) of
                   Left e  -> do
                     -- logMessage LogLevel.Error query (Just $ ParseError e) "Parse error"
