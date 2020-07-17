@@ -136,6 +136,7 @@ data Work = Work
   , subject  :: [Text.Text]
   , created  :: Date
   , licenses :: [License]
+  , journal  :: Maybe Text.Text
   , type_    :: DocumentType
   , doi      :: Text.Text
   } deriving (Show, Generic)
@@ -148,11 +149,20 @@ instance Aeson.FromJSON Work where
       <*> (o Aeson..: "subject" <|> pure [])
       <*> o Aeson..: "created"
       <*> (o Aeson..: "license" <|> pure [])
+      <*> o Aeson..:? "container-title"
       <*> o Aeson..: "type"
       <*> o Aeson..: "DOI"
 
 instance Aeson.ToJSON Work where
-  toEncoding Work { authors, title, url, subject, created, licenses, type_, doi } =
+  toEncoding Work { authors, title, url, subject, created, licenses, journal, type_, doi } =
+    let
+      licensesPair = case licenses of
+        [] -> mempty
+        _  -> "license" Aeson..= licenses
+      journalPair = case journal of
+           Nothing -> mempty
+           Just j -> "journal" Aeson..= j
+    in
     Aeson.pairs $
     (  "author"  Aeson..= authors
     <> "title"   Aeson..= title
@@ -161,9 +171,9 @@ instance Aeson.ToJSON Work where
     <> "created" Aeson..= created
     <> "type"    Aeson..= type_
     <> "DOI"     Aeson..= doi
-    ) <> case licenses of
-           [] -> mempty
-           _  -> "license" Aeson..= licenses
+    <> licensesPair
+    <> journalPair
+    )
 
 
 data Contributor = Contributor
