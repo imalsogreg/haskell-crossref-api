@@ -136,7 +136,7 @@ data Work = Work
   , subject  :: [Text.Text]
   , created  :: Date
   , licenses :: [License]
-  , journal  :: Maybe Text.Text
+  , journal  :: [Text.Text]
   , type_    :: DocumentType
   , doi      :: Text.Text
   } deriving (Show, Generic)
@@ -149,7 +149,7 @@ instance Aeson.FromJSON Work where
       <*> (o Aeson..: "subject" <|> pure [])
       <*> o Aeson..: "created"
       <*> (o Aeson..: "license" <|> pure [])
-      <*> o Aeson..:? "container-title"
+      <*> (o Aeson..: "container-title" <|> pure [])
       <*> o Aeson..: "type"
       <*> o Aeson..: "DOI"
 
@@ -160,8 +160,8 @@ instance Aeson.ToJSON Work where
         [] -> mempty
         _  -> "license" Aeson..= licenses
       journalPair = case journal of
-           Nothing -> mempty
-           Just j -> "journal" Aeson..= j
+        [] -> mempty
+        _  -> "journal" Aeson..= journal
     in
     Aeson.pairs $
     (  "author"  Aeson..= authors
