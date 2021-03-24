@@ -1,0 +1,3590 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1293760,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              5
+            ]
+          ],
+          "date-time": "2021-02-05T16:41:07Z",
+          "timestamp": 1612543267018
+        },
+        "reference-count": 75,
+        "publisher": "Wiley",
+        "issue": "12",
+        "license": [
+          {
+            "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+            "start": {
+              "date-parts": [
+                [
+                  2015,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2015-09-01T00:00:00Z",
+              "timestamp": 1441065600000
+            },
+            "delay-in-days": 1560,
+            "content-version": "tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1111/j.1460-9568.2011.07721.x",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              5,
+              25
+            ]
+          ],
+          "date-time": "2011-05-25T16:03:39Z",
+          "timestamp": 1306339419000
+        },
+        "page": "2255-2264",
+        "source": "Crossref",
+        "is-referenced-by-count": 13,
+        "title": [
+          "Instability of spatial encoding by CA1 hippocampal place cells after peripheral nerve injury"
+        ],
+        "prefix": "10.1111",
+        "volume": "33",
+        "author": [
+          {
+            "given": "Helder",
+            "family": "Cardoso-Cruz",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Deolinda",
+            "family": "Lima",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Vasco",
+            "family": "Galhardo",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "311",
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              5,
+              25
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB1|cit1",
+            "doi-asserted-by": "crossref",
+            "first-page": "66",
+            "DOI": "10.1016/j.jneumeth.2007.06.020",
+            "article-title": "OpenControl: a free opensource software for video tracking and automated control of behavioral mazes",
+            "volume": "166",
+            "author": "Aguiar",
+            "year": "2007",
+            "journal-title": "J. Neurosci. Methods"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB2|cit2",
+            "doi-asserted-by": "crossref",
+            "first-page": "30",
+            "DOI": "10.1016/j.expneurol.2010.11.005",
+            "article-title": "Chronic dizocilpine or apomorphine and development of neuropathy in two animal models II: effects on brain cytokines and neurotrophins",
+            "volume": "228",
+            "author": "Al-Amin",
+            "year": "2011",
+            "journal-title": "Exp. Neurol."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB3|cit3",
+            "doi-asserted-by": "crossref",
+            "first-page": "129",
+            "DOI": "10.1016/j.pain.2003.12.015",
+            "article-title": "Chronic pain patients are impaired on an emotional decision-making task",
+            "volume": "108",
+            "author": "Apkarian",
+            "year": "2004",
+            "journal-title": "Pain"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB4|cit4",
+            "doi-asserted-by": "crossref",
+            "first-page": "272",
+            "DOI": "10.1038/40859",
+            "article-title": "Multistability of cognitive maps in the hippocampus of old rats",
+            "volume": "388",
+            "author": "Barnes",
+            "year": "1997",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB5|cit5",
+            "doi-asserted-by": "crossref",
+            "first-page": "313",
+            "DOI": "10.1016/S0304-3959(02)00157-4",
+            "article-title": "Subcortical structures involved in pain processing: evidence from single-trial fMR1",
+            "volume": "99",
+            "author": "Bingel",
+            "year": "2002",
+            "journal-title": "Pain"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB6|cit6",
+            "doi-asserted-by": "crossref",
+            "first-page": "558",
+            "DOI": "10.1016/j.neuroscience.2007.10.032",
+            "article-title": "Alterations in attentional mechanisms in response to acute inflammatory pain and morphine administration",
+            "volume": "151",
+            "author": "Boyette-Davis",
+            "year": "2008",
+            "journal-title": "Neuroscience"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB7|cit7",
+            "doi-asserted-by": "crossref",
+            "first-page": "85",
+            "DOI": "10.1016/j.jneuroim.2010.09.005",
+            "article-title": "Adjuvant-induced arthritis induces c-Fos chronically in neurons in the hippocampus",
+            "volume": "230",
+            "author": "Carter",
+            "year": "2011",
+            "journal-title": "J. Neuroimmunol."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB8|cit8",
+            "doi-asserted-by": "crossref",
+            "first-page": "35",
+            "DOI": "10.1016/S0304-3959(02)00460-8",
+            "article-title": "The behavioral and neuronal effects induced by repetitive nociceptive stimulation are affected by gonadal hormones in male rats",
+            "volume": "104",
+            "author": "Ceccarelli",
+            "year": "2003",
+            "journal-title": "Pain"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB9|cit9",
+            "doi-asserted-by": "crossref",
+            "first-page": "55",
+            "DOI": "10.1016/0165-0270(94)90144-9",
+            "article-title": "Quantitative assessment of tactile allodynia in the rat paw",
+            "volume": "53",
+            "author": "Chaplan",
+            "year": "1994",
+            "journal-title": "J. Neurosci. Methods"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB12|cit10",
+            "doi-asserted-by": "crossref",
+            "first-page": "469",
+            "DOI": "10.1016/j.tins.2008.06.008",
+            "article-title": "Understanding memory through hippocampal remapping",
+            "volume": "31",
+            "author": "Colgin",
+            "year": "2008",
+            "journal-title": "Trends Neurosci."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB13|cit11",
+            "doi-asserted-by": "crossref",
+            "first-page": "149",
+            "DOI": "10.1016/S0304-3959(00)00276-1",
+            "article-title": "Spared nerve injury: an animal model of persistent peripheral neuropathic pain",
+            "volume": "87",
+            "author": "Decosterd",
+            "year": "2000",
+            "journal-title": "Pain"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB14|cit12",
+            "doi-asserted-by": "crossref",
+            "first-page": "261",
+            "DOI": "10.1152/jn.1955.18.3.261",
+            "article-title": "Cerebral structures involved in transmission and elaboration of noxious stimulation",
+            "volume": "18",
+            "author": "Delgado",
+            "year": "1955",
+            "journal-title": "J. Neurophysiol."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB15|cit13",
+            "doi-asserted-by": "crossref",
+            "first-page": "1223",
+            "DOI": "10.1213/01.ane.0000263280.49786.f5",
+            "article-title": "Disruption of attention and working memory traces in individuals with chronic pain",
+            "volume": "104",
+            "author": "Dick",
+            "year": "2007",
+            "journal-title": "Anesth. Analg."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB17|cit14",
+            "doi-asserted-by": "crossref",
+            "first-page": "843",
+            "DOI": "10.1016/S0896-6273(03)00465-3",
+            "article-title": "Place representation within hippocampal networks is modified by long-term potentiation",
+            "volume": "39",
+            "author": "Dragoi",
+            "year": "2003",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB18|cit15",
+            "doi-asserted-by": "crossref",
+            "first-page": "999",
+            "DOI": "10.1016/j.neuroscience.2005.04.002",
+            "article-title": "Hippocampal neurokinin-1 receptor and brain-derived neurotrophic factor gene expression is decreased in rat models of pain and stress",
+            "volume": "133",
+            "author": "Duric",
+            "year": "2005",
+            "journal-title": "Neuroscience"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB19|cit16",
+            "doi-asserted-by": "crossref",
+            "first-page": "209",
+            "DOI": "10.1016/S0896-6273(00)80773-4",
+            "article-title": "The hippocampus, memory, and place cells: is it spatial memory or a memory space?",
+            "volume": "23",
+            "author": "Eichenbaum",
+            "year": "1999",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB20|cit17",
+            "doi-asserted-by": "crossref",
+            "first-page": "631",
+            "DOI": "10.1016/S0896-6273(01)00401-9",
+            "article-title": "NMDA receptor antagonism blocks experience-dependent expansion of hippocampal “place fields”",
+            "volume": "31",
+            "author": "Ekstrom",
+            "year": "2001",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB21|cit18",
+            "doi-asserted-by": "crossref",
+            "first-page": "399",
+            "DOI": "10.1007/BF00238898",
+            "article-title": "Electrophysiological characteristics of hippocampal complex-spike cells and theta cells",
+            "volume": "41",
+            "author": "Fox",
+            "year": "1981",
+            "journal-title": "Exp. Brain Res."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB22|cit19",
+            "doi-asserted-by": "crossref",
+            "first-page": "390",
+            "DOI": "10.3171/jns.1967.26.4.0390",
+            "article-title": "Effects of human hippocampal ablation",
+            "volume": "26",
+            "author": "Gol",
+            "year": "1967",
+            "journal-title": "J. Neurosurg."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB23|cit20",
+            "doi-asserted-by": "crossref",
+            "first-page": "83",
+            "DOI": "10.1093/brain/101.1.83",
+            "article-title": "Mental phenomena evoked by electrical-stimulation of human hippocampal formation and amygdala",
+            "volume": "101",
+            "author": "Halgren",
+            "year": "1978",
+            "journal-title": "Brain"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB24|cit21",
+            "doi-asserted-by": "crossref",
+            "first-page": "162",
+            "DOI": "10.1097/EJA.0b013e328331a3d5",
+            "article-title": "Amitriptyline rather than lornoxicam ameliorates neuropathic pain-induced deficits in abilities of spatial learning and memory",
+            "volume": "27",
+            "author": "Hu",
+            "year": "2010",
+            "journal-title": "Eur. J. Anaesthesiol."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB25|cit22",
+            "doi-asserted-by": "crossref",
+            "first-page": "2121",
+            "DOI": "10.1126/science.280.5372.2121",
+            "article-title": "Abolition of long-term stability of new hippocampal place cell maps by NMDA receptor blockade",
+            "volume": "280",
+            "author": "Kentros",
+            "year": "1998",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB26|cit23",
+            "doi-asserted-by": "crossref",
+            "first-page": "713",
+            "DOI": "10.1016/S0306-4522(96)00456-3",
+            "article-title": "Dorsal hippocampus field CA1 pyramidal cell responses to a persistent versus an acute nociceptive stimulus and their septal modulation",
+            "volume": "77",
+            "author": "Khanna",
+            "year": "1997",
+            "journal-title": "Neuroscience"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB27|cit24",
+            "doi-asserted-by": "crossref",
+            "first-page": "28",
+            "DOI": "10.1016/0014-4886(92)90107-2",
+            "article-title": "Responses in the CA1 region of the rat hippocampus to a noxious stimulus",
+            "volume": "117",
+            "author": "Khanna",
+            "year": "1992",
+            "journal-title": "Exp. Neurol."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB28|cit25",
+            "doi-asserted-by": "crossref",
+            "first-page": "18297",
+            "DOI": "10.1073/pnas.0708644104",
+            "article-title": "Stress-induced alterations in hippocampal plasticity, place cells, and spatial memory",
+            "volume": "104",
+            "author": "Kim",
+            "year": "2007",
+            "journal-title": "Proc. Natl. Acad. Sci. USA"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB29|cit26",
+            "doi-asserted-by": "crossref",
+            "first-page": "597",
+            "DOI": "10.1152/jn.1997.78.2.597",
+            "article-title": "Task-dependent representations in rat hippocampal place neurons",
+            "volume": "78",
+            "author": "Kobayashi",
+            "year": "1997",
+            "journal-title": "J. Neurophysiol."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB30|cit27",
+            "doi-asserted-by": "crossref",
+            "first-page": "127",
+            "DOI": "10.1016/j.ejphar.2007.07.054",
+            "article-title": "Altered hippocampal long-term potentiation after peripheral nerve injury in mice",
+            "volume": "574",
+            "author": "Kodama",
+            "year": "2007",
+            "journal-title": "Eur. J. Pharmacol."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB31|cit28",
+            "doi-asserted-by": "crossref",
+            "first-page": "490",
+            "DOI": "10.1006/exnr.2000.7395",
+            "article-title": "A behavioral test paradigm to measure the aversive quality of inflammatory and neuropathic pain in rats",
+            "volume": "163",
+            "author": "LaBuda",
+            "year": "2000",
+            "journal-title": "Exp. Neurol."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB32|cit29",
+            "doi-asserted-by": "crossref",
+            "first-page": "57",
+            "DOI": "10.1016/j.pain.2009.02.024",
+            "article-title": "The impact of age on emotional and cognitive behaviours triggered by experimental neuropathy in rats",
+            "volume": "144",
+            "author": "Leite-Almeida",
+            "year": "2009",
+            "journal-title": "Pain"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB33|cit30",
+            "doi-asserted-by": "crossref",
+            "first-page": "6661",
+            "DOI": "10.1523/JNEUROSCI.19-15-06661.1999",
+            "article-title": "Excitotoxic septal lesions result in spatial memory deficits and altered flexibility of hippocampal single-unit representations",
+            "volume": "19",
+            "author": "Leutgeb",
+            "year": "1999",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB34|cit31",
+            "doi-asserted-by": "crossref",
+            "first-page": "619",
+            "DOI": "10.1126/science.1114037",
+            "article-title": "Independent codes for spatial and episodic memory in hippocampal neuronal ensembles",
+            "volume": "309",
+            "author": "Leutgeb",
+            "year": "2005",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB35|cit32",
+            "doi-asserted-by": "crossref",
+            "first-page": "11505",
+            "DOI": "10.1523/JNEUROSCI.23-37-11505.2003",
+            "article-title": "Seizure-induced changes in place cell physiology: relationship to spatial memory",
+            "volume": "23",
+            "author": "Liu",
+            "year": "2003",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB36|cit33",
+            "doi-asserted-by": "crossref",
+            "first-page": "3960",
+            "DOI": "10.1002/art.24070",
+            "article-title": "White and gray matter abnormalities in the brain of patients with fibromyalgia: a diffusion-tensor and volumetric imaging study",
+            "volume": "58",
+            "author": "Lutz",
+            "year": "2008",
+            "journal-title": "Arthritis Rheum."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB37|cit34",
+            "doi-asserted-by": "crossref",
+            "first-page": "410",
+            "DOI": "10.1002/hipo.450040404",
+            "article-title": "Spatial information content and reliability of hippocampal CA1 neurons: effects of visual input",
+            "volume": "4",
+            "author": "Markus",
+            "year": "1994",
+            "journal-title": "Hippocampus"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB38|cit35",
+            "doi-asserted-by": "crossref",
+            "first-page": "7079",
+            "DOI": "10.1523/JNEUROSCI.15-11-07079.1995",
+            "article-title": "Interactions between location and task affect the spatial and directional firing of hippocampal neurons",
+            "volume": "15",
+            "author": "Markus",
+            "year": "1995",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB39|cit36",
+            "doi-asserted-by": "crossref",
+            "first-page": "105",
+            "DOI": "10.1016/0304-3959(92)90195-H",
+            "article-title": "Analgesia produced by lidocaine microinjection into the dentate gyrus",
+            "volume": "49",
+            "author": "McKenna",
+            "year": "1992",
+            "journal-title": "Pain"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB40|cit37",
+            "doi-asserted-by": "crossref",
+            "first-page": "92",
+            "DOI": "10.1006/exnr.2001.7777",
+            "article-title": "Blocking NMDA receptors in the hippocampal dentate gyrus with AP5 produces analgesia in the formalin pain test",
+            "volume": "172",
+            "author": "McKenna",
+            "year": "2001",
+            "journal-title": "Exp. Neurol."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB41|cit38",
+            "doi-asserted-by": "crossref",
+            "first-page": "485",
+            "DOI": "10.1007/BF00248904",
+            "article-title": "Hippocampal granule cells are necessary for normal spatial learning but not for spatially-selective pyramidal cell discharge",
+            "volume": "76",
+            "author": "McNaughton",
+            "year": "1989",
+            "journal-title": "Exp. Brain Res."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB42|cit39",
+            "doi-asserted-by": "crossref",
+            "first-page": "8918",
+            "DOI": "10.1073/pnas.94.16.8918",
+            "article-title": "Experience-dependent, asymmetric expansion of hippocampal place fields",
+            "volume": "94",
+            "author": "Mehta",
+            "year": "1997",
+            "journal-title": "Proc. Natl. Acad. Sci. U S A"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB43|cit40",
+            "doi-asserted-by": "crossref",
+            "first-page": "707",
+            "DOI": "10.1016/S0896-6273(00)81072-7",
+            "article-title": "Experience-dependent asymmetric shape of hippocampal receptive fields",
+            "volume": "25",
+            "author": "Mehta",
+            "year": "2000",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB44|cit41",
+            "doi-asserted-by": "crossref",
+            "first-page": "214",
+            "DOI": "10.1016/j.pain.2003.12.028",
+            "article-title": "Decrease in non-selective, non-sustained attention induced by a chronic visceral inflammatory state as a new pain evaluation in rats",
+            "volume": "109",
+            "author": "Millecamps",
+            "year": "2004",
+            "journal-title": "Pain"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB45|cit42",
+            "doi-asserted-by": "crossref",
+            "first-page": "850",
+            "DOI": "10.1038/nrn2738",
+            "article-title": "TrkB signalling pathways in LTP and learning",
+            "volume": "10",
+            "author": "Minichiello",
+            "year": "2009",
+            "journal-title": "Nat. Rev. Neurosci."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB46|cit43",
+            "doi-asserted-by": "crossref",
+            "first-page": "168",
+            "DOI": "10.1016/0006-8993(94)90361-1",
+            "article-title": "Reversible inactivation of the lateral dorsal thalamus disrupts hippocampal place representation and impairs spatial learning",
+            "volume": "644",
+            "author": "Mizumori",
+            "year": "1994",
+            "journal-title": "Brain Res."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB47|cit44",
+            "doi-asserted-by": "crossref",
+            "first-page": "7015",
+            "DOI": "10.1523/JNEUROSCI.5492-03.2004",
+            "article-title": "Putting fear in its place: remapping of hippocampal place cells during fear conditioning",
+            "volume": "24",
+            "author": "Moita",
+            "year": "2004",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB48|cit45",
+            "doi-asserted-by": "crossref",
+            "first-page": "385",
+            "DOI": "10.1016/j.pneurobio.2011.01.002",
+            "article-title": "The effect of pain on cognitive function: a review of clinical and preclinical research",
+            "volume": "93",
+            "author": "Moriarty",
+            "year": "2011",
+            "journal-title": "Prog. Neurobiol."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB49|cit46",
+            "doi-asserted-by": "crossref",
+            "first-page": "4016",
+            "DOI": "10.1523/JNEUROSCI.21-11-04016.2001",
+            "article-title": "Instability in the place field location of hippocampal place cells after lesions centered on the perirhinal cortex",
+            "volume": "21",
+            "author": "Muir",
+            "year": "2001",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB50|cit47",
+            "doi-asserted-by": "crossref",
+            "first-page": "1951",
+            "DOI": "10.1523/JNEUROSCI.07-07-01951.1987",
+            "article-title": "The effects of changes in the environment on the spatial firing of hippocampal complex-spike cells",
+            "volume": "7",
+            "author": "Muller",
+            "year": "1987",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB51|cit48",
+            "doi-asserted-by": "crossref",
+            "first-page": "4101",
+            "DOI": "10.1523/JNEUROSCI.09-12-04101.1989",
+            "article-title": "The firing of hippocampal place cells predicts the future position of freely moving rats",
+            "volume": "9",
+            "author": "Muller",
+            "year": "1989",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB52|cit49",
+            "doi-asserted-by": "crossref",
+            "first-page": "1935",
+            "DOI": "10.1523/JNEUROSCI.07-07-01935.1987",
+            "article-title": "Spatial firing patterns of hippocampal complex-spike cells in a fixed environment",
+            "volume": "7",
+            "author": "Muller",
+            "year": "1987",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB53|cit50",
+            "doi-asserted-by": "crossref",
+            "first-page": "5",
+            "DOI": "10.1016/0006-8993(71)90358-1",
+            "article-title": "Hippocampus as a spatial map - preliminary evidence from unit activity in freely-moving rat",
+            "volume": "34",
+            "author": "O’ Keefe",
+            "year": "1971",
+            "journal-title": "Brain Res."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB54|cit51",
+            "author": "O’ Keefe",
+            "year": "1978",
+            "volume-title": "The hippocampus as a cognitive map"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB55|cit52",
+            "doi-asserted-by": "crossref",
+            "first-page": "671",
+            "DOI": "10.1016/j.neuroscience.2009.04.011",
+            "article-title": "Cognitive impairment of prefrontal-dependent decision-making in rats after the onset of chronic pain",
+            "volume": "161",
+            "author": "Pais-Vieira",
+            "year": "2009a",
+            "journal-title": "Neuroscience"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB56|cit53",
+            "doi-asserted-by": "crossref",
+            "first-page": "98",
+            "DOI": "10.1016/j.neulet.2009.07.050",
+            "article-title": "Sustained attention deficits in rats with chronic inflammatory pain",
+            "volume": "463",
+            "author": "Pais-Vieira",
+            "year": "2009b",
+            "journal-title": "Neurosci. Lett."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB57|cit54",
+            "author": "Paxinos",
+            "year": "1998",
+            "volume-title": "The Rat Brain in Stereotaxic Coordinates"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB58|cit55",
+            "doi-asserted-by": "crossref",
+            "first-page": "9281",
+            "DOI": "10.1073/pnas.160266497",
+            "article-title": "Learning about pain: the neural substrate of the prediction error for aversive events",
+            "volume": "97",
+            "author": "Ploghaus",
+            "year": "2000",
+            "journal-title": "Proc. Natl Acad. Sci. USA"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB59|cit56",
+            "doi-asserted-by": "crossref",
+            "first-page": "9896",
+            "DOI": "10.1523/JNEUROSCI.21-24-09896.2001",
+            "article-title": "Exacerbation of pain by anxiety is associated with activity in a hippocampal network",
+            "volume": "21",
+            "author": "Ploghaus",
+            "year": "2001",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB60|cit57",
+            "doi-asserted-by": "crossref",
+            "first-page": "461",
+            "DOI": "10.1016/0014-4886(73)90290-2",
+            "article-title": "Studies on single neurons in dorsal hippocampal formation and septum in unrestrained rats. I. Behavioral correlates and firing repertoires",
+            "volume": "41",
+            "author": "Ranck",
+            "year": "1973",
+            "journal-title": "Exp. Neurol."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB61|cit58",
+            "doi-asserted-by": "crossref",
+            "first-page": "979",
+            "DOI": "10.1038/npp.2010.236",
+            "article-title": "Peripheral nerve injury leads to working memory deficits and dysfunction of the hippocampus by upregulation of TNF-α in rodents",
+            "volume": "36",
+            "author": "Ren",
+            "year": "2011",
+            "journal-title": "Neuropsychopharmacology"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB62|cit59",
+            "doi-asserted-by": "crossref",
+            "first-page": "8096",
+            "DOI": "10.1523/JNEUROSCI.20-21-08096.2000",
+            "article-title": "Parallel instabilities of long-term potentiation, place cells, and learning caused by decreased protein kinase A activity",
+            "volume": "20",
+            "author": "Rotenberg",
+            "year": "2000",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB64|cit60",
+            "doi-asserted-by": "crossref",
+            "first-page": "1412",
+            "DOI": "10.1093/cercor/bhl052",
+            "article-title": "Interactions of pain intensity and cognitive load: the brain stays on task",
+            "volume": "17",
+            "author": "Seminowicz",
+            "year": "2007",
+            "journal-title": "Cereb. Cortex"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB65|cit61",
+            "doi-asserted-by": "crossref",
+            "first-page": "365",
+            "DOI": "10.1002/(SICI)1098-1063(1999)9:4<365::AID-HIPO4>3.0.CO;2-T",
+            "article-title": "Hippocampus as a memory map: synaptic plasticity and memory encoding by hippocampal neurons",
+            "volume": "9",
+            "author": "Shapiro",
+            "year": "1999",
+            "journal-title": "Hippocampus"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB66|cit62",
+            "doi-asserted-by": "crossref",
+            "first-page": "6769",
+            "DOI": "10.1523/JNEUROSCI.17-17-06769.1997",
+            "article-title": "The effect of aging on experience-dependent plasticity of hippocampal place cells",
+            "volume": "17",
+            "author": "Shen",
+            "year": "1997",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB67|cit63",
+            "doi-asserted-by": "crossref",
+            "first-page": "355",
+            "DOI": "10.1097/ALN.0b013e3181ca3196",
+            "article-title": "Comparison of anesthetic depth indexes based on thalamocortical local field potentials in rats",
+            "volume": "112",
+            "author": "Silva",
+            "year": "2010",
+            "journal-title": "Anesthesiology"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB68|cit64",
+            "doi-asserted-by": "crossref",
+            "first-page": "1870",
+            "DOI": "10.1126/science.271.5257.1870",
+            "article-title": "Replay of neuronal firing sequences in rat hippocampus during sleep following spatial experience",
+            "volume": "271",
+            "author": "Skaggs",
+            "year": "1996",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB69|cit65",
+            "author": "Skaggs",
+            "first-page": "1030",
+            "year": "1993",
+            "volume-title": "Advances in neural information processing"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB70|cit66",
+            "doi-asserted-by": "crossref",
+            "first-page": "221",
+            "DOI": "10.1016/j.bbr.2005.11.011",
+            "article-title": "Microinjection of ritanserin into the dorsal hippocampal CA1 and dentate gyrus decrease nociceptive behavior in adult male rat",
+            "volume": "168",
+            "author": "Soleimannejad",
+            "year": "2006",
+            "journal-title": "Behav. Brain Res."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB71|cit67",
+            "doi-asserted-by": "crossref",
+            "first-page": "29",
+            "DOI": "10.1016/j.pain.2005.11.016",
+            "article-title": "Hippocampal theta state in relation to formalin nociception",
+            "volume": "121",
+            "author": "Tai",
+            "year": "2006",
+            "journal-title": "Pain"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB72|cit68",
+            "doi-asserted-by": "crossref",
+            "first-page": "299",
+            "DOI": "10.1016/0006-8993(90)90555-P",
+            "article-title": "Long-term stability of the place-field activity of single units recorded from the dorsal hippocampus of freely behaving rats",
+            "volume": "509",
+            "author": "Thompson",
+            "year": "1990",
+            "journal-title": "Brain Res."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB73|cit69",
+            "doi-asserted-by": "crossref",
+            "first-page": "154",
+            "DOI": "10.1002/hipo.20042",
+            "article-title": "Stability of hippocampal place cell activity across the rat estrous cycle",
+            "volume": "15",
+            "author": "Tropp",
+            "year": "2005",
+            "journal-title": "Hippocampus"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB74|cit70",
+            "doi-asserted-by": "crossref",
+            "first-page": "1325",
+            "DOI": "10.1083/jcb.149.7.1325",
+            "article-title": "Role of EGR1 in hippocampal synaptic enhancement induced by tetanic stimulation and amputation",
+            "volume": "149",
+            "author": "Wei",
+            "year": "2000",
+            "journal-title": "J. Cell Biol."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB75|cit71",
+            "doi-asserted-by": "crossref",
+            "first-page": "623",
+            "DOI": "10.1016/S0896-6273(00)00071-4",
+            "article-title": "Hippocampal neurons encode information about different types of memory episodes occurring in the same location",
+            "volume": "27",
+            "author": "Wood",
+            "year": "2000",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB78|cit72",
+            "doi-asserted-by": "crossref",
+            "first-page": "222",
+            "DOI": "10.1016/j.pain.2010.01.006",
+            "article-title": "Chronic myofascial temporomandibular pain is associated with neural abnormalities in the trigeminal and limbic systems",
+            "volume": "149",
+            "author": "Younger",
+            "year": "2010",
+            "journal-title": "Pain"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB79|cit73",
+            "doi-asserted-by": "crossref",
+            "first-page": "55",
+            "DOI": "10.1186/1744-8069-5-55",
+            "article-title": "Nociception-induced spatial and temporal plasticity of synaptic connection and function in the hippocampal formation of rats: a multi-electrode array recording",
+            "volume": "5",
+            "author": "Zhao",
+            "year": "2009",
+            "journal-title": "Mol. Pain"
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB80|cit74",
+            "doi-asserted-by": "crossref",
+            "first-page": "374",
+            "DOI": "10.1016/j.brainresbull.2008.09.004",
+            "article-title": "Intra-hippocampal tonic inhibition influences formalin pain-induced pyramidal cell suppression, but not excitation in dorsal field CA1 of rat",
+            "volume": "77",
+            "author": "Zheng",
+            "year": "2008",
+            "journal-title": "Brain Res. Bull."
+          },
+          {
+            "key": "10.1111/j.1460-9568.2011.07721.x-BIB81|cit75",
+            "doi-asserted-by": "crossref",
+            "first-page": "109",
+            "DOI": "10.1016/0304-3959(83)90201-4",
+            "article-title": "Ethical guidelines for investigations of experimental pain in conscious animals",
+            "volume": "16",
+            "author": "Zimmermann",
+            "year": "1983",
+            "journal-title": "Pain"
+          }
+        ],
+        "container-title": [
+          "European Journal of Neuroscience"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1460-9568.2011.07721.x",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://onlinelibrary.wiley.com/wol1/doi/10.1111/j.1460-9568.2011.07721.x/fullpdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              5
+            ]
+          ],
+          "date-time": "2021-02-05T08:43:37Z",
+          "timestamp": 1612514617000
+        },
+        "score": 24.654718,
+        "subtitle": [
+          "Pain-induced instability of hippocampal place cells"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              5,
+              25
+            ]
+          ]
+        },
+        "references-count": 75,
+        "journal-issue": {
+          "published-print": {
+            "date-parts": [
+              [
+                2011,
+                6
+              ]
+            ]
+          },
+          "issue": "12"
+        },
+        "URL": "http://dx.doi.org/10.1111/j.1460-9568.2011.07721.x",
+        "relation": {
+          "cites": []
+        },
+        "ISSN": [
+          "0953-816X"
+        ],
+        "issn-type": [
+          {
+            "value": "0953-816X",
+            "type": "print"
+          }
+        ],
+        "subject": [
+          "General Neuroscience"
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              19
+            ]
+          ],
+          "date-time": "2021-03-19T05:04:03Z",
+          "timestamp": 1616130243671
+        },
+        "reference-count": 42,
+        "publisher": "Elsevier BV",
+        "issue": "1",
+        "license": [
+          {
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  7,
+                  1
+                ]
+              ],
+              "date-time": "2016-07-01T00:00:00Z",
+              "timestamp": 1467331200000
+            },
+            "delay-in-days": 0,
+            "content-version": "tdm"
+          },
+          {
+            "URL": "https://www.elsevier.com/open-access/userlicense/1.0/",
+            "start": {
+              "date-parts": [
+                [
+                  2017,
+                  7,
+                  6
+                ]
+              ],
+              "date-time": "2017-07-06T00:00:00Z",
+              "timestamp": 1499299200000
+            },
+            "delay-in-days": 370,
+            "content-version": "vor"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "cell.com",
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Neuron"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              7
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.neuron.2016.05.036",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              6
+            ]
+          ],
+          "date-time": "2016-07-06T18:01:47Z",
+          "timestamp": 1467828107000
+        },
+        "page": "34-40",
+        "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 38,
+        "title": [
+          "Hippocampal Place Cells Couple to Three Different Gamma Oscillations during Place Field Traversal"
+        ],
+        "prefix": "10.1016",
+        "volume": "91",
+        "author": [
+          {
+            "given": "Bálint",
+            "family": "Lasztóczi",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Thomas",
+            "family": "Klausberger",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib1",
+            "doi-asserted-by": "crossref",
+            "first-page": "121",
+            "DOI": "10.1038/nn.3884",
+            "article-title": "Impaired spatial selectivity and intact phase precession in two-dimensional virtual reality",
+            "volume": "18",
+            "author": "Aghajan",
+            "year": "2015",
+            "journal-title": "Nat. Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib2",
+            "doi-asserted-by": "crossref",
+            "first-page": "670",
+            "DOI": "10.1016/j.neuron.2014.03.013",
+            "article-title": "Slow and fast γ rhythms coordinate different spatial coding modes in hippocampal place cells",
+            "volume": "82",
+            "author": "Bieri",
+            "year": "2014",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib3",
+            "doi-asserted-by": "crossref",
+            "first-page": "1133",
+            "DOI": "10.1038/nn.4062",
+            "article-title": "Conjunctive input processing drives feature selectivity in hippocampal CA1 neurons",
+            "volume": "18",
+            "author": "Bittner",
+            "year": "2015",
+            "journal-title": "Nat. Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib4",
+            "doi-asserted-by": "crossref",
+            "first-page": "47",
+            "DOI": "10.1523/JNEUROSCI.15-01-00047.1995",
+            "article-title": "Gamma (40-100 Hz) oscillation in the hippocampus of the behaving rat",
+            "volume": "15",
+            "author": "Bragin",
+            "year": "1995",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib5",
+            "doi-asserted-by": "crossref",
+            "first-page": "290",
+            "DOI": "10.1016/j.neuron.2007.11.034",
+            "article-title": "Impaired spatial representation in CA1 after lesion of direct input from entorhinal cortex",
+            "volume": "57",
+            "author": "Brun",
+            "year": "2008",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib6",
+            "doi-asserted-by": "crossref",
+            "first-page": "130",
+            "DOI": "10.1038/nn.3304",
+            "article-title": "Memory, navigation and theta rhythm in the hippocampal-entorhinal system",
+            "volume": "16",
+            "author": "Buzsáki",
+            "year": "2013",
+            "journal-title": "Nat. Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib7",
+            "doi-asserted-by": "crossref",
+            "first-page": "402",
+            "DOI": "10.1016/j.neuron.2013.11.010",
+            "article-title": "Oscillatory dynamics and place field maps reflect hippocampal ensemble processing of sequence and place memory under NMDA receptor control",
+            "volume": "81",
+            "author": "Cabral",
+            "year": "2014",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib8",
+            "doi-asserted-by": "crossref",
+            "first-page": "1626",
+            "DOI": "10.1126/science.1128115",
+            "article-title": "High gamma power is phase-locked to theta oscillations in human neocortex",
+            "volume": "313",
+            "author": "Canolty",
+            "year": "2006",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "378",
+            "DOI": "10.1073/pnas.1215834110",
+            "article-title": "How vision and movement combine in the hippocampal place code",
+            "volume": "110",
+            "author": "Chen",
+            "year": "2013",
+            "journal-title": "Proc. Natl. Acad. Sci. USA"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "353",
+            "DOI": "10.1038/nature08573",
+            "article-title": "Frequency of gamma oscillations routes flow of information in the hippocampus",
+            "volume": "462",
+            "author": "Colgin",
+            "year": "2009",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib11",
+            "doi-asserted-by": "crossref",
+            "first-page": "145",
+            "DOI": "10.1016/j.neuron.2006.02.023",
+            "article-title": "Temporal encoding of place sequences by hippocampal cell assemblies",
+            "volume": "50",
+            "author": "Dragoi",
+            "year": "2006",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib12",
+            "doi-asserted-by": "crossref",
+            "first-page": "770",
+            "DOI": "10.1038/nrn3599",
+            "article-title": "Modelling and analysis of local field potentials for studying the function of cortical circuits",
+            "volume": "14",
+            "author": "Einevoll",
+            "year": "2013",
+            "journal-title": "Nat. Rev. Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib13",
+            "doi-asserted-by": "crossref",
+            "first-page": "4890",
+            "DOI": "10.1523/JNEUROSCI.2614-14.2015",
+            "article-title": "Dissociation between the experience-dependent development of hippocampal theta sequences and single-trial phase precession",
+            "volume": "35",
+            "author": "Feng",
+            "year": "2015",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib14",
+            "doi-asserted-by": "crossref",
+            "first-page": "1093",
+            "DOI": "10.1002/hipo.20345",
+            "article-title": "Hippocampal theta sequences",
+            "volume": "17",
+            "author": "Foster",
+            "year": "2007",
+            "journal-title": "Hippocampus"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib15",
+            "doi-asserted-by": "crossref",
+            "first-page": "209",
+            "DOI": "10.1146/annurev.neuro.051508.135603",
+            "article-title": "Neuronal gamma-band synchronization as a fundamental process in cortical computation",
+            "volume": "32",
+            "author": "Fries",
+            "year": "2009",
+            "journal-title": "Annu. Rev. Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib16",
+            "doi-asserted-by": "crossref",
+            "first-page": "7957",
+            "DOI": "10.1073/pnas.0912478107",
+            "article-title": "Temporal delays among place cells determine the frequency of population theta oscillations in the hippocampus",
+            "volume": "107",
+            "author": "Geisler",
+            "year": "2010",
+            "journal-title": "Proc. Natl. Acad. Sci. USA"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib17",
+            "doi-asserted-by": "crossref",
+            "first-page": "552",
+            "DOI": "10.1038/nature01834",
+            "article-title": "Organization of cell assemblies in the hippocampus",
+            "volume": "424",
+            "author": "Harris",
+            "year": "2003",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib18",
+            "doi-asserted-by": "crossref",
+            "first-page": "941",
+            "DOI": "10.1038/nature08499",
+            "article-title": "Intracellular dynamics of hippocampal place cells during virtual navigation",
+            "volume": "461",
+            "author": "Harvey",
+            "year": "2009",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib19",
+            "doi-asserted-by": "crossref",
+            "first-page": "587",
+            "DOI": "10.1038/nn.2106",
+            "article-title": "Theta phase-specific codes for two-dimensional position, trajectory and heading in the hippocampus",
+            "volume": "11",
+            "author": "Huxter",
+            "year": "2008",
+            "journal-title": "Nat. Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib20",
+            "doi-asserted-by": "crossref",
+            "first-page": "1126",
+            "DOI": "10.1016/j.neuron.2014.01.021",
+            "article-title": "Layer-specific GABAergic control of distinct gamma oscillations in the CA1 hippocampus",
+            "volume": "81",
+            "author": "Lasztóczi",
+            "year": "2014",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib21",
+            "doi-asserted-by": "crossref",
+            "first-page": "1512",
+            "DOI": "10.1126/science.7878473",
+            "article-title": "Storage of 7 +/- 2 short-term memories in oscillatory subcycles",
+            "volume": "267",
+            "author": "Lisman",
+            "year": "1995",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib22",
+            "doi-asserted-by": "crossref",
+            "first-page": "1002",
+            "DOI": "10.1016/j.neuron.2013.03.007",
+            "article-title": "The θ-γ neural code",
+            "volume": "77",
+            "author": "Lisman",
+            "year": "2013",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib23",
+            "doi-asserted-by": "crossref",
+            "first-page": "325",
+            "DOI": "10.1016/j.tins.2007.05.002",
+            "article-title": "Network and intrinsic cellular mechanisms underlying theta phase precession of hippocampal neurons",
+            "volume": "30",
+            "author": "Maurer",
+            "year": "2007",
+            "journal-title": "Trends Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib24",
+            "doi-asserted-by": "crossref",
+            "first-page": "267",
+            "DOI": "10.1016/j.neuron.2009.08.037",
+            "article-title": "Theta oscillations provide temporal windows for local circuit computation in the entorhinal-hippocampal loop",
+            "volume": "64",
+            "author": "Mizuseki",
+            "year": "2009",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib25",
+            "doi-asserted-by": "crossref",
+            "first-page": "356",
+            "DOI": "10.1152/jn.1975.38.2.356",
+            "article-title": "Theory of current source-density analysis and determination of conductivity tensor for anuran cerebellum",
+            "volume": "38",
+            "author": "Nicholson",
+            "year": "1975",
+            "journal-title": "J. Neurophysiol."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib26",
+            "author": "O’Keefe",
+            "year": "1978",
+            "series-title": "The Hippocampus as a Cognitive Map"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib27",
+            "doi-asserted-by": "crossref",
+            "first-page": "317",
+            "DOI": "10.1002/hipo.450030307",
+            "article-title": "Phase relationship between hippocampal place units and the EEG theta rhythm",
+            "volume": "3",
+            "author": "O’Keefe",
+            "year": "1993",
+            "journal-title": "Hippocampus"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib28",
+            "doi-asserted-by": "crossref",
+            "first-page": "1322",
+            "DOI": "10.1126/science.1159775",
+            "article-title": "Internally generated cell assembly sequences in the rat hippocampus",
+            "volume": "321",
+            "author": "Pastalkova",
+            "year": "2008",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib29",
+            "doi-asserted-by": "crossref",
+            "first-page": "1342",
+            "DOI": "10.1126/science.1232655",
+            "article-title": "Multisensory control of hippocampal spatiotemporal selectivity",
+            "volume": "340",
+            "author": "Ravassard",
+            "year": "2013",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib30",
+            "doi-asserted-by": "crossref",
+            "first-page": "763",
+            "DOI": "10.1016/j.tins.2015.10.004",
+            "article-title": "Grid Cells and Place Cells: An Integrated View of their Navigational and Memory Function",
+            "volume": "38",
+            "author": "Sanders",
+            "year": "2015",
+            "journal-title": "Trends Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib31",
+            "doi-asserted-by": "crossref",
+            "first-page": "2404",
+            "DOI": "10.1093/cercor/bhr319",
+            "article-title": "Theta phase modulates multiple layer-specific oscillations in the CA1 region",
+            "volume": "22",
+            "author": "Scheffer-Teixeira",
+            "year": "2012",
+            "journal-title": "Cereb. Cortex"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib32",
+            "doi-asserted-by": "crossref",
+            "first-page": "1123",
+            "DOI": "10.1038/nn.4056",
+            "article-title": "The medial entorhinal cortex is necessary for temporal organization of hippocampal neuronal activity",
+            "volume": "18",
+            "author": "Schlesiger",
+            "year": "2015",
+            "journal-title": "Nat. Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib33",
+            "doi-asserted-by": "crossref",
+            "first-page": "13232",
+            "DOI": "10.1523/JNEUROSCI.2270-09.2009",
+            "article-title": "Single-trial phase precession in the hippocampus",
+            "volume": "29",
+            "author": "Schmidt",
+            "year": "2009",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib34",
+            "doi-asserted-by": "crossref",
+            "first-page": "11798",
+            "DOI": "10.1523/JNEUROSCI.0656-12.2012",
+            "article-title": "The spiking component of oscillatory extracellular potentials in the rat hippocampus",
+            "volume": "32",
+            "author": "Schomburg",
+            "year": "2012",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib35",
+            "doi-asserted-by": "crossref",
+            "first-page": "470",
+            "DOI": "10.1016/j.neuron.2014.08.051",
+            "article-title": "Theta phase segregation of input-specific gamma patterns in entorhinal-hippocampal networks",
+            "volume": "84",
+            "author": "Schomburg",
+            "year": "2014",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib36",
+            "doi-asserted-by": "crossref",
+            "first-page": "149",
+            "DOI": "10.1002/(SICI)1098-1063(1996)6:2<149::AID-HIPO6>3.0.CO;2-K",
+            "article-title": "Theta phase precession in hippocampal neuronal populations and the compression of temporal sequences",
+            "volume": "6",
+            "author": "Skaggs",
+            "year": "1996",
+            "journal-title": "Hippocampus"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib37",
+            "doi-asserted-by": "crossref",
+            "first-page": "477",
+            "DOI": "10.1016/0013-4694(65)90128-8",
+            "article-title": "The Fast Component in the Electrical Activity of Rabbit’s Hippocampus",
+            "volume": "18",
+            "author": "Stumpf",
+            "year": "1965",
+            "journal-title": "Electroencephalogr. Clin. Neurophysiol."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib38",
+            "doi-asserted-by": "crossref",
+            "first-page": "102",
+            "DOI": "10.1016/j.neuron.2009.03.007",
+            "article-title": "Pathway interactions and synaptic plasticity in the dendritic tuft regions of CA1 pyramidal neurons",
+            "volume": "62",
+            "author": "Takahashi",
+            "year": "2009",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib39",
+            "doi-asserted-by": "crossref",
+            "first-page": "357",
+            "DOI": "10.1016/j.neuron.2015.09.052",
+            "article-title": "Internally Recurring Hippocampal Sequences as a Population Template of Spatiotemporal Information",
+            "volume": "88",
+            "author": "Villette",
+            "year": "2015",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib40",
+            "doi-asserted-by": "crossref",
+            "first-page": "282",
+            "DOI": "10.1038/nn.3904",
+            "article-title": "Theta sequences are essential for internally generated hippocampal firing fields",
+            "volume": "18",
+            "author": "Wang",
+            "year": "2015",
+            "journal-title": "Nat. Neurosci."
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib41",
+            "doi-asserted-by": "crossref",
+            "first-page": "1055",
+            "DOI": "10.1126/science.8351520",
+            "article-title": "Dynamics of the hippocampal ensemble code for space",
+            "volume": "261",
+            "author": "Wilson",
+            "year": "1993",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1016/j.neuron.2016.05.036_bib42",
+            "doi-asserted-by": "crossref",
+            "first-page": "398",
+            "DOI": "10.1016/j.neuron.2015.12.005",
+            "article-title": "Spatial Sequence Coding Differs during Slow and Fast Gamma Rhythms in the Hippocampus",
+            "volume": "89",
+            "author": "Zheng",
+            "year": "2016",
+            "journal-title": "Neuron"
+          }
+        ],
+        "container-title": [
+          "Neuron"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0896627316302471?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0896627316302471?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              10
+            ]
+          ],
+          "date-time": "2019-09-10T20:12:59Z",
+          "timestamp": 1568146379000
+        },
+        "score": 22.856861,
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              7
+            ]
+          ]
+        },
+        "references-count": 42,
+        "journal-issue": {
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                7
+              ]
+            ]
+          },
+          "issue": "1"
+        },
+        "alternative-id": [
+          "S0896627316302471"
+        ],
+        "URL": "http://dx.doi.org/10.1016/j.neuron.2016.05.036",
+        "relation": {
+          "cites": []
+        },
+        "ISSN": [
+          "0896-6273"
+        ],
+        "issn-type": [
+          {
+            "value": "0896-6273",
+            "type": "print"
+          }
+        ],
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Hippocampal Place Cells Couple to Three Different Gamma Oscillations during Place Field Traversal",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Neuron",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.neuron.2016.05.036",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2016 Elsevier Inc.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              28
+            ]
+          ],
+          "date-time": "2021-02-28T19:23:47Z",
+          "timestamp": 1614540227842
+        },
+        "reference-count": 0,
+        "publisher": "American Association for the Advancement of Science (AAAS)",
+        "issue": "5576",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2002,
+              6,
+              21
+            ]
+          ]
+        },
+        "DOI": "10.1126/science.1071089",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              7,
+              28
+            ]
+          ],
+          "date-time": "2002-07-28T23:06:23Z",
+          "timestamp": 1027897583000
+        },
+        "page": "2243-2246",
+        "source": "Crossref",
+        "is-referenced-by-count": 363,
+        "title": [
+          "Place Cells and Place Recognition Maintained by Direct Entorhinal-Hippocampal Circuitry"
+        ],
+        "prefix": "10.1126",
+        "volume": "296",
+        "author": [
+          {
+            "given": "V. H.",
+            "family": "Brun",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "221",
+        "container-title": [
+          "Science"
+        ],
+        "link": [
+          {
+            "URL": "https://syndication.highwire.org/content/doi/10.1126/science.1071089",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              5
+            ]
+          ],
+          "date-time": "2020-02-05T17:42:56Z",
+          "timestamp": 1580924576000
+        },
+        "score": 22.856861,
+        "issued": {
+          "date-parts": [
+            [
+              2002,
+              6,
+              21
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "5576"
+        },
+        "URL": "http://dx.doi.org/10.1126/science.1071089",
+        "ISSN": [
+          "0036-8075",
+          "1095-9203"
+        ],
+        "issn-type": [
+          {
+            "value": "0036-8075",
+            "type": "print"
+          },
+          {
+            "value": "1095-9203",
+            "type": "electronic"
+          }
+        ],
+        "subject": [
+          "Multidisciplinary"
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              25
+            ]
+          ],
+          "date-time": "2020-03-25T13:23:19Z",
+          "timestamp": 1585142599955
+        },
+        "reference-count": 56,
+        "publisher": "Wiley",
+        "issue": "6",
+        "license": [
+          {
+            "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+            "start": {
+              "date-parts": [
+                [
+                  2015,
+                  9,
+                  1
+                ]
+              ],
+              "date-time": "2015-09-01T00:00:00Z",
+              "timestamp": 1441065600000
+            },
+            "delay-in-days": 5356,
+            "content-version": "tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Hippocampus"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2001
+            ]
+          ]
+        },
+        "DOI": "10.1002/hipo.1095",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              9,
+              10
+            ]
+          ],
+          "date-time": "2002-09-10T22:20:22Z",
+          "timestamp": 1031696422000
+        },
+        "page": "793-808",
+        "source": "Crossref",
+        "is-referenced-by-count": 6,
+        "title": [
+          "Noradrenergic regulation of hippocampal place cells"
+        ],
+        "prefix": "10.1002",
+        "volume": "11",
+        "author": [
+          {
+            "given": "Heikki",
+            "family": "Tanila",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "311",
+        "reference": [
+          {
+            "key": "10.1002/hipo.1095-BIB1",
+            "author": "Abercrombie",
+            "volume": "27",
+            "first-page": "897",
+            "year": "1988",
+            "journal-title": "Neuroscience",
+            "DOI": "10.1016/0306-4522(88)90192-3",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB2",
+            "author": "Arnsten",
+            "volume": "8",
+            "first-page": "4287",
+            "year": "1988",
+            "journal-title": "J Neurosci",
+            "DOI": "10.1523/JNEUROSCI.08-11-04287.1988",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB3",
+            "author": "Arnsten",
+            "volume": "53",
+            "first-page": "448",
+            "year": "1996",
+            "journal-title": "Arch Gen Psychiatry",
+            "DOI": "10.1001/archpsyc.1996.01830050084013",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB4",
+            "author": "Aston-Jones",
+            "volume": "88",
+            "first-page": "501",
+            "year": "1991",
+            "journal-title": "Prog Brain Res",
+            "DOI": "10.1016/S0079-6123(08)63830-3",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB5",
+            "author": "Bergles",
+            "volume": "16",
+            "first-page": "572",
+            "year": "1996",
+            "journal-title": "J Neurosci",
+            "DOI": "10.1523/JNEUROSCI.16-02-00572.1996",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB6",
+            "author": "Björklund",
+            "volume": "95",
+            "first-page": "481",
+            "year": "2000",
+            "journal-title": "Neuroscience",
+            "DOI": "10.1016/S0306-4522(99)00428-5",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB7",
+            "author": "Bostock",
+            "volume": "1",
+            "first-page": "193",
+            "year": "1991",
+            "journal-title": "Hippocampus",
+            "DOI": "10.1002/hipo.450010207",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB8",
+            "author": "Bramham",
+            "volume": "8",
+            "first-page": "719",
+            "year": "1997",
+            "journal-title": "Neuroreport",
+            "DOI": "10.1097/00001756-199702100-00028",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB9",
+            "author": "Carlson",
+            "volume": "58",
+            "first-page": "113",
+            "year": "1992",
+            "journal-title": "Behav Neural Biol",
+            "DOI": "10.1016/0163-1047(92)90327-Z",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB10",
+            "author": "Chrobak",
+            "volume": "44",
+            "first-page": "144",
+            "year": "1985",
+            "journal-title": "Behav Neural Biol",
+            "DOI": "10.1016/S0163-1047(85)91316-0",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB11",
+            "author": "Devauges",
+            "volume": "43",
+            "first-page": "93",
+            "year": "1991",
+            "journal-title": "Behav Brain Res",
+            "DOI": "10.1016/S0166-4328(05)80056-7",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB12",
+            "author": "Dunwiddie",
+            "volume": "12",
+            "first-page": "506",
+            "year": "1992",
+            "journal-title": "J Neurosci",
+            "DOI": "10.1523/JNEUROSCI.12-02-00506.1992",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB13",
+            "author": "Frankhuyzen",
+            "volume": "81",
+            "first-page": "97",
+            "year": "1982",
+            "journal-title": "Eur J Pharmacol",
+            "DOI": "10.1016/0014-2999(82)90605-7",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB14",
+            "author": "Franowicz",
+            "volume": "136",
+            "first-page": "8",
+            "year": "1998",
+            "journal-title": "Psychopharmacology (Berl)",
+            "DOI": "10.1007/s002130050533",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB15",
+            "author": "Gray",
+            "volume": "327",
+            "first-page": "620",
+            "year": "1987",
+            "journal-title": "Nature",
+            "DOI": "10.1038/327620a0",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB16",
+            "author": "Haapalinna",
+            "volume": "347",
+            "first-page": "29",
+            "year": "1998",
+            "journal-title": "Eur J Pharmacol",
+            "DOI": "10.1016/S0014-2999(98)00077-6",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB17",
+            "author": "Harley",
+            "volume": "88",
+            "first-page": "307",
+            "year": "1991",
+            "journal-title": "Prog Brain Res",
+            "DOI": "10.1016/S0079-6123(08)63818-2",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB18",
+            "author": "Izquiredo",
+            "first-page": "333",
+            "year": "1984",
+            "unstructured": "1984. Endogenous state dependedency: memory depends on the relation between the neurohumoral and hormonal states present after training and at the time of testing. In: editors. Neurobiology of learning and memory. New York: Guildford Press. p 333-350.",
+            "volume-title": "Neurobiology of learning and memory"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB19",
+            "author": "Jäkälä",
+            "volume": "20",
+            "first-page": "460",
+            "year": "1999",
+            "journal-title": "Neuropsychopharmacology",
+            "DOI": "10.1016/S0893-133X(98)00127-4",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB20",
+            "author": "Katsuki",
+            "volume": "77",
+            "first-page": "3013",
+            "year": "1997",
+            "journal-title": "J Neurophysiol",
+            "DOI": "10.1152/jn.1997.77.6.3013",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB21",
+            "author": "Kauppila",
+            "volume": "205",
+            "first-page": "177",
+            "year": "1991",
+            "journal-title": "Eur J Pharmacol",
+            "DOI": "10.1016/0014-2999(91)90817-A",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB22",
+            "author": "Kentros",
+            "volume": "280",
+            "first-page": "2121",
+            "year": "1998",
+            "journal-title": "Science",
+            "DOI": "10.1126/science.280.5372.2121",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB23",
+            "author": "Lee",
+            "volume": "14",
+            "first-page": "144",
+            "year": "1993",
+            "journal-title": "Synapse",
+            "DOI": "10.1002/syn.890140207",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB24",
+            "author": "Loy",
+            "volume": "189",
+            "first-page": "699",
+            "year": "1980",
+            "journal-title": "J Comp Neurol",
+            "DOI": "10.1002/cne.901890406",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB25",
+            "author": "MacDonald",
+            "volume": "259",
+            "first-page": "848",
+            "year": "1991",
+            "journal-title": "J Pharmacol Exp Ther"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB26",
+            "author": "Mason",
+            "volume": "156",
+            "first-page": "382",
+            "year": "1978",
+            "journal-title": "Brain Res",
+            "DOI": "10.1016/0006-8993(78)90524-3",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB27",
+            "author": "Morris",
+            "volume": "297",
+            "first-page": "681",
+            "year": "1982",
+            "journal-title": "Nature",
+            "DOI": "10.1038/297681a0",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB28",
+            "author": "Muller",
+            "volume": "7",
+            "first-page": "1935",
+            "year": "1987",
+            "journal-title": "J Neurosci",
+            "DOI": "10.1523/JNEUROSCI.07-07-01935.1987",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB29",
+            "author": "Nitz",
+            "volume": "6",
+            "first-page": "153",
+            "year": "1999",
+            "journal-title": "Learn Mem"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB30",
+            "author": "O'Keefe",
+            "volume": "34",
+            "first-page": "171",
+            "year": "1971",
+            "journal-title": "Brain Res",
+            "DOI": "10.1016/0006-8993(71)90358-1",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB31",
+            "author": "O'Keefe",
+            "volume": "68",
+            "first-page": "1",
+            "year": "1987",
+            "journal-title": "Exp Brain Res",
+            "DOI": "10.1007/BF00255230",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB32",
+            "author": "Olpe",
+            "volume": "65",
+            "first-page": "11",
+            "year": "1986",
+            "journal-title": "Neurosci Lett",
+            "DOI": "10.1016/0304-3940(86)90112-6",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB33",
+            "author": "Pang",
+            "volume": "425",
+            "first-page": "146",
+            "year": "1987",
+            "journal-title": "Brain Res",
+            "DOI": "10.1016/0006-8993(87)90493-8",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB34",
+            "author": "Pisa",
+            "volume": "272",
+            "first-page": "319",
+            "year": "1983",
+            "journal-title": "Brain Res",
+            "DOI": "10.1016/0006-8993(83)90579-6",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB35",
+            "author": "Pisa",
+            "volume": "30",
+            "first-page": "835",
+            "year": "1988",
+            "journal-title": "Pharmacol Biochem Behav",
+            "DOI": "10.1016/0091-3057(88)90108-6",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB36",
+            "author": "Sara",
+            "volume": "51",
+            "first-page": "401",
+            "year": "1989",
+            "journal-title": "Behav Neural Biol",
+            "DOI": "10.1016/S0163-1047(89)91039-X",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB37",
+            "author": "Sara",
+            "volume": "88",
+            "first-page": "571",
+            "year": "1991",
+            "journal-title": "Prog Brain Res",
+            "DOI": "10.1016/S0079-6123(08)63835-2",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB38",
+            "author": "Scheinin",
+            "volume": "151",
+            "first-page": "35",
+            "year": "1988",
+            "journal-title": "Eur J Pharmacol",
+            "DOI": "10.1016/0014-2999(88)90689-9",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB39",
+            "author": "Segal",
+            "volume": "107",
+            "first-page": "513",
+            "year": "1976",
+            "journal-title": "Brain Res",
+            "DOI": "10.1016/0006-8993(76)90141-4",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB40",
+            "author": "Selden",
+            "volume": "39",
+            "first-page": "29",
+            "year": "1990a",
+            "journal-title": "Behav Brain Res",
+            "DOI": "10.1016/0166-4328(90)90119-Y",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB41",
+            "author": "Selden",
+            "volume": "10",
+            "first-page": "531",
+            "year": "1990b",
+            "journal-title": "J Neurosci",
+            "DOI": "10.1523/JNEUROSCI.10-02-00531.1990",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB42",
+            "author": "Shankaranarayana Rao",
+            "volume": "23",
+            "first-page": "1053",
+            "year": "1998",
+            "journal-title": "Neurochem Res",
+            "DOI": "10.1023/A:1020703901794",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB43",
+            "author": "Sirviö",
+            "volume": "56",
+            "first-page": "101",
+            "year": "1991a",
+            "journal-title": "Behav Neural Biol",
+            "DOI": "10.1016/0163-1047(91)90327-M",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB44",
+            "author": "Sirviö",
+            "volume": "563",
+            "first-page": "297",
+            "year": "1991b",
+            "journal-title": "Brain Res",
+            "DOI": "10.1016/0006-8993(91)91550-K",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB45",
+            "author": "Sirviö",
+            "volume": "31",
+            "first-page": "163",
+            "year": "1992a",
+            "journal-title": "Neuropharmacology",
+            "DOI": "10.1016/0028-3908(92)90027-M",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB46",
+            "author": "Sirviö",
+            "volume": "4",
+            "first-page": "99",
+            "year": "1992b",
+            "journal-title": "J Neural Transm Park Dis Dement Sect",
+            "DOI": "10.1007/BF02251473",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB47",
+            "author": "Stanton",
+            "volume": "5",
+            "first-page": "2169",
+            "year": "1985",
+            "journal-title": "J Neurosci",
+            "DOI": "10.1523/JNEUROSCI.05-08-02169.1985",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB48",
+            "author": "Tanila",
+            "volume": "40",
+            "first-page": "117",
+            "year": "1996",
+            "journal-title": "Brain Res Bull",
+            "DOI": "10.1016/0361-9230(96)00026-3",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB49",
+            "author": "Tanila",
+            "volume": "17",
+            "first-page": "5155",
+            "year": "1997",
+            "journal-title": "J Neurosci",
+            "DOI": "10.1523/JNEUROSCI.17-13-05155.1997",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB50",
+            "author": "Tanila",
+            "volume": "45",
+            "first-page": "577",
+            "year": "1998",
+            "journal-title": "Brain Res Bull",
+            "DOI": "10.1016/S0361-9230(97)00452-8",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB51",
+            "author": "Thomas",
+            "volume": "56",
+            "first-page": "1741",
+            "year": "1991",
+            "journal-title": "J Neurochem",
+            "DOI": "10.1111/j.1471-4159.1991.tb02075.x",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB52",
+            "author": "Thomas",
+            "volume": "94",
+            "first-page": "808",
+            "year": "1980",
+            "journal-title": "J Comp Physiol Psychol",
+            "DOI": "10.1037/h0077834",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB53",
+            "author": "Usher",
+            "volume": "283",
+            "first-page": "549",
+            "year": "1999",
+            "journal-title": "Science",
+            "DOI": "10.1126/science.283.5401.549",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB54",
+            "author": "Valjakka",
+            "volume": "54",
+            "first-page": "323",
+            "year": "1990",
+            "journal-title": "Behav Neural Biol",
+            "DOI": "10.1016/0163-1047(90)90661-O",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB55",
+            "author": "Vizi",
+            "volume": "8",
+            "first-page": "566",
+            "year": "1998",
+            "journal-title": "Hippocampus",
+            "DOI": "10.1002/(SICI)1098-1063(1998)8:6<566::AID-HIPO2>3.0.CO;2-W",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1002/hipo.1095-BIB56",
+            "author": "Zola-Morgan",
+            "volume": "9",
+            "first-page": "1922",
+            "year": "1989",
+            "journal-title": "J Neurosci",
+            "DOI": "10.1523/JNEUROSCI.09-06-01922.1989",
+            "doi-asserted-by": "crossref"
+          }
+        ],
+        "container-title": [
+          "Hippocampus"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fhipo.1095",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full/10.1002/hipo.1095",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              15
+            ]
+          ],
+          "date-time": "2019-12-15T04:04:34Z",
+          "timestamp": 1576382674000
+        },
+        "score": 22.498526,
+        "issued": {
+          "date-parts": [
+            [
+              2001
+            ]
+          ]
+        },
+        "references-count": 56,
+        "journal-issue": {
+          "published-print": {
+            "date-parts": [
+              [
+                2001
+              ]
+            ]
+          },
+          "issue": "6"
+        },
+        "URL": "http://dx.doi.org/10.1002/hipo.1095",
+        "relation": {
+          "cites": []
+        },
+        "ISSN": [
+          "1050-9631",
+          "1098-1063"
+        ],
+        "issn-type": [
+          {
+            "value": "1050-9631",
+            "type": "print"
+          },
+          {
+            "value": "1098-1063",
+            "type": "electronic"
+          }
+        ],
+        "subject": [
+          "Cognitive Neuroscience"
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              6
+            ]
+          ],
+          "date-time": "2020-02-06T01:10:10Z",
+          "timestamp": 1580951410722
+        },
+        "reference-count": 0,
+        "publisher": "American Association for the Advancement of Science (AAAS)",
+        "issue": "5576",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2002,
+              6,
+              21
+            ]
+          ]
+        },
+        "DOI": "10.1126/science.296.5576.2097p",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              7,
+              28
+            ]
+          ],
+          "date-time": "2002-07-28T23:06:23Z",
+          "timestamp": 1027897583000
+        },
+        "page": "2097p-2097",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Hippocampal Place Cells and Their Circuitry"
+        ],
+        "prefix": "10.1126",
+        "volume": "296",
+        "member": "221",
+        "container-title": [
+          "Science"
+        ],
+        "link": [
+          {
+            "URL": "https://syndication.highwire.org/content/doi/10.1126/science.296.5576.2097p",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              6
+            ]
+          ],
+          "date-time": "2020-02-06T00:43:43Z",
+          "timestamp": 1580949823000
+        },
+        "score": 22.498526,
+        "issued": {
+          "date-parts": [
+            [
+              2002,
+              6,
+              21
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "5576"
+        },
+        "URL": "http://dx.doi.org/10.1126/science.296.5576.2097p",
+        "ISSN": [
+          "0036-8075",
+          "1095-9203"
+        ],
+        "issn-type": [
+          {
+            "value": "0036-8075",
+            "type": "print"
+          },
+          {
+            "value": "1095-9203",
+            "type": "electronic"
+          }
+        ],
+        "subject": [
+          "Multidisciplinary"
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              8
+            ]
+          ],
+          "date-time": "2020-04-08T06:30:39Z",
+          "timestamp": 1586327439923
+        },
+        "reference-count": 12,
+        "publisher": "Elsevier BV",
+        "issue": "2",
+        "license": [
+          {
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+            "start": {
+              "date-parts": [
+                [
+                  2004,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2004-04-01T00:00:00Z",
+              "timestamp": 1080777600000
+            },
+            "delay-in-days": 0,
+            "content-version": "tdm"
+          },
+          {
+            "URL": "https://www.elsevier.com/open-access/userlicense/1.0/",
+            "start": {
+              "date-parts": [
+                [
+                  2013,
+                  7,
+                  17
+                ]
+              ],
+              "date-time": "2013-07-17T00:00:00Z",
+              "timestamp": 1374019200000
+            },
+            "delay-in-days": 3394,
+            "content-version": "vor"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Neuron"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2004,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1016/s0896-6273(04)00219-3",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2004,
+              4,
+              22
+            ]
+          ],
+          "date-time": "2004-04-22T09:45:44Z",
+          "timestamp": 1082627144000
+        },
+        "page": "183-185",
+        "source": "Crossref",
+        "is-referenced-by-count": 4,
+        "title": [
+          "Hippocampal Place Cells Demand Attention"
+        ],
+        "prefix": "10.1016",
+        "volume": "42",
+        "author": [
+          {
+            "given": "Edvard I",
+            "family": "Moser",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/S0896-6273(04)00219-3_BIB1",
+            "author": "Bailey",
+            "volume": "1",
+            "first-page": "11",
+            "year": "2000",
+            "journal-title": "Nat. Rev. Neurosci.",
+            "DOI": "10.1038/35036191",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1016/S0896-6273(04)00219-3_BIB2",
+            "author": "Bostock",
+            "volume": "1",
+            "first-page": "193",
+            "year": "1991",
+            "journal-title": "Hippocampus",
+            "DOI": "10.1002/hipo.450010207",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1016/S0896-6273(04)00219-3_BIB3",
+            "first-page": "361",
+            "article-title": "Behav",
+            "volume": "9",
+            "author": "Carli",
+            "year": "1983",
+            "journal-title": "Brain Res."
+          },
+          {
+            "key": "10.1016/S0896-6273(04)00219-3_BIB4",
+            "author": "Desimone",
+            "volume": "18",
+            "first-page": "193",
+            "year": "1995",
+            "journal-title": "Annu. Rev. Neurosci.",
+            "DOI": "10.1146/annurev.ne.18.030195.001205",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1016/S0896-6273(04)00219-3_BIB5",
+            "author": "Granon",
+            "volume": "20",
+            "first-page": "1208",
+            "year": "2000",
+            "journal-title": "J. Neurosci.",
+            "DOI": "10.1523/JNEUROSCI.20-03-01208.2000",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1016/S0896-6273(04)00219-3_BIB6",
+            "author": "Kentros",
+            "volume": "42",
+            "first-page": "283",
+            "year": "2004",
+            "journal-title": "Neuron",
+            "DOI": "10.1016/S0896-6273(04)00192-8",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1016/S0896-6273(04)00219-3_BIB7",
+            "author": "Markus",
+            "volume": "15",
+            "first-page": "7079",
+            "year": "1995",
+            "journal-title": "J. Neurosci.",
+            "DOI": "10.1523/JNEUROSCI.15-11-07079.1995",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1016/S0896-6273(04)00219-3_BIB8",
+            "author": "McGaughy",
+            "volume": "117",
+            "first-page": "340",
+            "year": "1995",
+            "journal-title": "Psychopharmacology (Berl.)",
+            "DOI": "10.1007/BF02246109",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1016/S0896-6273(04)00219-3_BIB9",
+            "author": "Miller",
+            "volume": "24",
+            "first-page": "167",
+            "year": "2001",
+            "journal-title": "Annu. Rev. Neurosci.",
+            "DOI": "10.1146/annurev.neuro.24.1.167",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1016/S0896-6273(04)00219-3_BIB10",
+            "author": "O'Keefe",
+            "volume": "31",
+            "first-page": "573",
+            "year": "1978",
+            "journal-title": "Exp. Brain Res.",
+            "DOI": "10.1007/BF00239813",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1016/S0896-6273(04)00219-3_BIB11",
+            "author": "O'Keefe",
+            "year": "1978",
+            "series-title": "The Hippocampus as a Cognitive Map"
+          },
+          {
+            "key": "10.1016/S0896-6273(04)00219-3_BIB12",
+            "author": "Quirk",
+            "volume": "10",
+            "first-page": "2008",
+            "year": "1990",
+            "journal-title": "J. Neurosci.",
+            "DOI": "10.1523/JNEUROSCI.10-06-02008.1990",
+            "doi-asserted-by": "crossref"
+          }
+        ],
+        "container-title": [
+          "Neuron"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0896627304002193?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0896627304002193?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              2,
+              10
+            ]
+          ],
+          "date-time": "2019-02-10T11:21:58Z",
+          "timestamp": 1549797718000
+        },
+        "score": 22.498526,
+        "issued": {
+          "date-parts": [
+            [
+              2004,
+              4
+            ]
+          ]
+        },
+        "references-count": 12,
+        "journal-issue": {
+          "published-print": {
+            "date-parts": [
+              [
+                2004,
+                4
+              ]
+            ]
+          },
+          "issue": "2"
+        },
+        "alternative-id": [
+          "S0896627304002193"
+        ],
+        "URL": "http://dx.doi.org/10.1016/s0896-6273(04)00219-3",
+        "relation": {
+          "cites": []
+        },
+        "ISSN": [
+          "0896-6273"
+        ],
+        "issn-type": [
+          {
+            "value": "0896-6273",
+            "type": "print"
+          }
+        ],
+        "subject": [
+          "General Neuroscience"
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              5
+            ]
+          ],
+          "date-time": "2020-02-05T05:41:18Z",
+          "timestamp": 1580881278202
+        },
+        "reference-count": 17,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+            "start": {
+              "date-parts": [
+                [
+                  2000,
+                  6,
+                  1
+                ]
+              ],
+              "date-time": "2000-06-01T00:00:00Z",
+              "timestamp": 959817600000
+            },
+            "delay-in-days": 0,
+            "content-version": "tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Neurocomputing"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2000,
+              6
+            ]
+          ]
+        },
+        "DOI": "10.1016/s0925-2312(00)00168-5",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              7,
+              26
+            ]
+          ],
+          "date-time": "2002-07-26T02:46:48Z",
+          "timestamp": 1027651608000
+        },
+        "page": "225-234",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Hippocampal place cells and the generation of a temporal code"
+        ],
+        "prefix": "10.1016",
+        "volume": "32-33",
+        "author": [
+          {
+            "given": "Michael",
+            "family": "Recce",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Amitabha",
+            "family": "Bose",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Victoria",
+            "family": "Booth",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB1",
+            "unstructured": "A. Bose, V. Booth, M. Recce, A temporal mechanism for generating the phase precession of hippocampal place cells, J. Comput. Neurosci. 9 (2000), in press.",
+            "DOI": "10.1023/A:1008976210366",
+            "doi-asserted-by": "crossref"
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB2",
+            "doi-asserted-by": "crossref",
+            "first-page": "609",
+            "DOI": "10.1016/0306-4522(90)90055-9",
+            "article-title": "Coherence of compound field potentials reveals discontinuities in the CA1-subiculum of the hippocampus in freely-moving rats",
+            "volume": "38",
+            "author": "Bullock",
+            "year": "1990",
+            "journal-title": "J. Neurosci."
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB3",
+            "doi-asserted-by": "crossref",
+            "first-page": "1065",
+            "DOI": "10.1016/S0893-6080(05)80159-5",
+            "article-title": "A model of hippocampal function",
+            "volume": "17",
+            "author": "Burgess",
+            "year": "1994",
+            "journal-title": "Neural Networks"
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB4",
+            "doi-asserted-by": "crossref",
+            "first-page": "179",
+            "DOI": "10.1016/S0896-6273(00)80525-5",
+            "article-title": "Reliability and state-dependence of pyramidal cell-interneuron synapses in the hippocampus: an ensemble approach in the behaving rat",
+            "volume": "21",
+            "author": "Csicsvari",
+            "year": "1998",
+            "journal-title": "Neuron"
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB5",
+            "doi-asserted-by": "crossref",
+            "first-page": "533",
+            "DOI": "10.1152/jn.1954.17.6.533",
+            "article-title": "Hippocampal electrical activity in arousal",
+            "volume": "17",
+            "author": "Green",
+            "year": "1954",
+            "journal-title": "J. Neurophysiol."
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB6",
+            "doi-asserted-by": "crossref",
+            "first-page": "257",
+            "DOI": "10.1101/lm.3.2-3.257",
+            "article-title": "Hippocampal CA3 region predicts memory sequences: accounting for the phase advance of place cells",
+            "volume": "3",
+            "author": "Jensen",
+            "year": "1996",
+            "journal-title": "Learn. Mem."
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB7",
+            "doi-asserted-by": "crossref",
+            "first-page": "244",
+            "DOI": "10.1002/(SICI)1098-1063(1998)8:3<244::AID-HIPO7>3.0.CO;2-J",
+            "article-title": "Theta oscillations in somata and dendrites of hippocampal pyramidal cells in vivo: activity-dependent phase-precession of action potentials",
+            "volume": "8",
+            "author": "Kamondi",
+            "year": "1998",
+            "journal-title": "Hippocampus"
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB8",
+            "doi-asserted-by": "crossref",
+            "first-page": "41",
+            "DOI": "10.1007/BF00237147",
+            "article-title": "The contributions of position, direction and velocity to single unit activity in the hippocampus of freely-moving rats",
+            "volume": "52",
+            "author": "McNaughton",
+            "year": "1983",
+            "journal-title": "Exper. Brain Res."
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB9",
+            "doi-asserted-by": "crossref",
+            "first-page": "193",
+            "DOI": "10.1016/S0006-3495(81)84782-0",
+            "article-title": "Voltage oscillations in the barnacle giant muscle fiber",
+            "volume": "35",
+            "author": "Morris",
+            "year": "1981",
+            "journal-title": "Biophys. J."
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB10",
+            "doi-asserted-by": "crossref",
+            "first-page": "171",
+            "DOI": "10.1016/0006-8993(71)90358-1",
+            "article-title": "The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat",
+            "volume": "34",
+            "author": "O'Keefe",
+            "year": "1971",
+            "journal-title": "Brain Res."
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB11",
+            "doi-asserted-by": "crossref",
+            "first-page": "317",
+            "DOI": "10.1002/hipo.450030307",
+            "article-title": "Phase relationship between hippocampal place units and the EEG theta rhythm",
+            "volume": "3",
+            "author": "O'Keefe",
+            "year": "1993",
+            "journal-title": "Hippocampus"
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB12",
+            "doi-asserted-by": "crossref",
+            "first-page": "149",
+            "DOI": "10.1002/(SICI)1098-1063(1996)6:2<149::AID-HIPO6>3.0.CO;2-K",
+            "article-title": "Theta-phase precession in hippocampal neuronal populations and the compression of temporal sequences",
+            "volume": "6",
+            "author": "Skaggs",
+            "year": "1996",
+            "journal-title": "Hippocampus"
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB13",
+            "doi-asserted-by": "crossref",
+            "first-page": "271",
+            "DOI": "10.1002/(SICI)1098-1063(1996)6:3<271::AID-HIPO5>3.3.CO;2-Q",
+            "article-title": "Population dynamics and theta rhythm phase precession of hippocampal place cell firing: a spiking neuron model",
+            "volume": "6",
+            "author": "Tsodyks",
+            "year": "1996",
+            "journal-title": "Hippocampus"
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB14",
+            "doi-asserted-by": "crossref",
+            "first-page": "393",
+            "DOI": "10.1152/jn.1997.78.1.393",
+            "article-title": "GABAergic modulation of hippocampal population activity: Sequence learning, place field development, and the phase precession effect",
+            "volume": "78",
+            "author": "Wallenstein",
+            "year": "1997",
+            "journal-title": "J. Neurophysiol."
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB15",
+            "doi-asserted-by": "crossref",
+            "first-page": "84",
+            "DOI": "10.1162/neco.1992.4.1.84",
+            "article-title": "Alternating and synchronous rhythms in reciprocally inhibitory neuron models",
+            "volume": "4",
+            "author": "Wang",
+            "year": "1992",
+            "journal-title": "Neural Cop."
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB16",
+            "doi-asserted-by": "crossref",
+            "first-page": "1055",
+            "DOI": "10.1126/science.8351520",
+            "article-title": "Dynamics of the hippocampal ensemble code for space",
+            "volume": "265",
+            "author": "Wilson",
+            "year": "1993",
+            "journal-title": "Science"
+          },
+          {
+            "key": "10.1016/S0925-2312(00)00168-5_BIB17",
+            "doi-asserted-by": "crossref",
+            "first-page": "1017",
+            "DOI": "10.1152/jn.1998.79.2.1017",
+            "article-title": "Interpreting neuronal population activity by reconstruction: unified framework with applications to hippocampal place cells",
+            "volume": "79",
+            "author": "Zhang",
+            "year": "1998",
+            "journal-title": "J. Neurophysiol."
+          }
+        ],
+        "container-title": [
+          "Neurocomputing"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0925231200001685?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0925231200001685?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              5
+            ]
+          ],
+          "date-time": "2020-02-05T04:58:52Z",
+          "timestamp": 1580878732000
+        },
+        "score": 20.347124,
+        "issued": {
+          "date-parts": [
+            [
+              2000,
+              6
+            ]
+          ]
+        },
+        "references-count": 17,
+        "alternative-id": [
+          "S0925231200001685"
+        ],
+        "URL": "http://dx.doi.org/10.1016/s0925-2312(00)00168-5",
+        "relation": {
+          "cites": []
+        },
+        "ISSN": [
+          "0925-2312"
+        ],
+        "issn-type": [
+          {
+            "value": "0925-2312",
+            "type": "print"
+          }
+        ],
+        "subject": [
+          "Cognitive Neuroscience",
+          "Artificial Intelligence",
+          "Computer Science Applications"
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              31
+            ]
+          ],
+          "date-time": "2020-03-31T10:52:41Z",
+          "timestamp": 1585651961850
+        },
+        "reference-count": 0,
+        "publisher": "Elsevier BV",
+        "issue": "10",
+        "license": [
+          {
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+            "start": {
+              "date-parts": [
+                [
+                  2002,
+                  10,
+                  1
+                ]
+              ],
+              "date-time": "2002-10-01T00:00:00Z",
+              "timestamp": 1033430400000
+            },
+            "delay-in-days": 0,
+            "content-version": "tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2002,
+              10,
+              1
+            ]
+          ]
+        },
+        "DOI": "10.1016/s0166-2236(02)02266-x",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2002,
+              10,
+              11
+            ]
+          ],
+          "date-time": "2002-10-11T01:05:50Z",
+          "timestamp": 1034298350000
+        },
+        "page": "498",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "GluR2, LTP and hippocampal place cells"
+        ],
+        "prefix": "10.1016",
+        "volume": "25",
+        "author": [
+          {
+            "given": "R",
+            "family": "Gerlai",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "78",
+        "container-title": [
+          "Trends in Neurosciences"
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0166-2236(02)02266-X?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0166-2236(02)02266-X?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              9
+            ]
+          ],
+          "date-time": "2019-04-09T18:26:17Z",
+          "timestamp": 1554834377000
+        },
+        "score": 20.347124,
+        "issued": {
+          "date-parts": [
+            [
+              2002,
+              10,
+              1
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "10"
+        },
+        "alternative-id": [
+          "S0166-2236(02)02266-X"
+        ],
+        "URL": "http://dx.doi.org/10.1016/s0166-2236(02)02266-x",
+        "ISSN": [
+          "0166-2236"
+        ],
+        "issn-type": [
+          {
+            "value": "0166-2236",
+            "type": "print"
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              7
+            ]
+          ],
+          "date-time": "2020-04-07T15:23:52Z",
+          "timestamp": 1586273032129
+        },
+        "reference-count": 0,
+        "publisher": "Springer Science and Business Media LLC",
+        "license": [
+          {
+            "URL": "http://www.springer.com/tdm",
+            "start": {
+              "date-parts": [
+                [
+                  2011,
+                  9,
+                  9
+                ]
+              ],
+              "date-time": "2011-09-09T00:00:00Z",
+              "timestamp": 1315526400000
+            },
+            "delay-in-days": 0,
+            "content-version": "tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Nat Prec"
+        ],
+        "DOI": "10.1038/npre.2011.6379.1",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              9
+            ]
+          ],
+          "date-time": "2011-09-09T23:06:10Z",
+          "timestamp": 1315609570000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Spatial navigation and multiscale representation by hippocampal place cells"
+        ],
+        "prefix": "10.1038",
+        "author": [
+          {
+            "given": "Jason",
+            "family": "Prentice",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Josh",
+            "family": "Merel",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Vijay",
+            "family": "Balasubramanian",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Nature Precedings"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "http://www.nature.com/articles/npre.2011.6379.1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://www.nature.com/articles/npre.2011.6379.1",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http://www.nature.com/articles/npre.2011.6379.1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              4
+            ]
+          ],
+          "date-time": "2019-10-04T17:04:13Z",
+          "timestamp": 1570208653000
+        },
+        "score": 20.347124,
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              9
+            ]
+          ]
+        },
+        "references-count": 0,
+        "alternative-id": [
+          "BFnpre201163791"
+        ],
+        "URL": "http://dx.doi.org/10.1038/npre.2011.6379.1",
+        "ISSN": [
+          "1756-0357"
+        ],
+        "issn-type": [
+          {
+            "value": "1756-0357",
+            "type": "electronic"
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2020,
+              4,
+              7
+            ]
+          ],
+          "date-time": "2020-04-07T15:23:52Z",
+          "timestamp": 1586273032163
+        },
+        "reference-count": 0,
+        "publisher": "Springer Science and Business Media LLC",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "Nature Precedings"
+        ],
+        "DOI": "10.1038/npre.2011.6379",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              9
+            ]
+          ],
+          "date-time": "2011-09-09T23:06:13Z",
+          "timestamp": 1315609573000
+        },
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Spatial navigation and multiscale representation by hippocampal place cells"
+        ],
+        "prefix": "10.1038",
+        "author": [
+          {
+            "given": "Jason",
+            "family": "Prentice",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Jason",
+            "family": "Prentice",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Josh",
+            "family": "Merel",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "given": "Vijay",
+            "family": "Balasubramanian",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              9
+            ]
+          ]
+        },
+        "container-title": [
+          "Nature Precedings"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              9
+            ]
+          ],
+          "date-time": "2011-09-09T23:06:16Z",
+          "timestamp": 1315609576000
+        },
+        "score": 20.347124,
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              9,
+              9
+            ]
+          ]
+        },
+        "references-count": 0,
+        "alternative-id": [
+          "10.1038/npre.2011.6379"
+        ],
+        "URL": "http://dx.doi.org/10.1038/npre.2011.6379",
+        "ISSN": [
+          "1756-0357"
+        ],
+        "issn-type": [
+          {
+            "value": "1756-0357",
+            "type": "print"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 10,
+    "query": {
+      "start-index": 0,
+      "search-terms": "hippocampal place cells"
+    }
+  }
+}

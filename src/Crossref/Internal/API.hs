@@ -6,6 +6,7 @@
 {-# LANGUAGE GeneralizedNewtypeDeriving #-}
 {-# LANGUAGE NamedFieldPuns             #-}
 {-# LANGUAGE OverloadedStrings          #-}
+{-# LANGUAGE RecordWildCards            #-}
 {-# LANGUAGE ScopedTypeVariables        #-}
 {-# LANGUAGE ViewPatterns               #-}
 
@@ -139,6 +140,7 @@ data Work = Work
   , journal  :: [Text.Text]
   , type_    :: DocumentType
   , doi      :: Text.Text
+  , link     :: [Link]
   } deriving (Show, Generic)
 
 instance Aeson.FromJSON Work where
@@ -152,6 +154,7 @@ instance Aeson.FromJSON Work where
       <*> (o Aeson..: "container-title" <|> pure [])
       <*> o Aeson..: "type"
       <*> o Aeson..: "DOI"
+      <*> (o Aeson..: "link" <|> pure [])
 
 instance Aeson.ToJSON Work where
   toEncoding Work { authors, title, url, subject, created, licenses, journal, type_, doi } =
@@ -474,3 +477,27 @@ instance Aeson.FromJSON DocumentType where
       Nothing -> Fail.fail $ "DocumentType " ++ show s
                  ++ " not found in table "
                  ++ show (Map.toList documentTypes')
+
+data Link = Link
+  { url :: Text.Text
+  , contentType :: Text.Text
+  , contentVersion :: Text.Text
+  , intendedApplication :: Text.Text
+  }
+  deriving (Eq, Generic, Show, Ord)
+
+instance Aeson.ToJSON Link where
+  toEncoding Link {url, contentType, contentVersion, intendedApplication } =
+    Aeson.pairs (   "URL"                  Aeson..= url
+                 <> "content-type"         Aeson..= contentType
+                 <> "content-version"      Aeson..= contentVersion
+                 <> "intended-application" Aeson..= intendedApplication
+                )
+
+instance Aeson.FromJSON Link where
+  parseJSON = Aeson.withObject "Link" $ \o -> do
+    url <- o Aeson..: "URL"
+    contentType <- o Aeson..: "content-type"
+    contentVersion <- o Aeson..: "content-version"
+    intendedApplication <- o Aeson..: "intended-application"
+    pure $ Link {..}

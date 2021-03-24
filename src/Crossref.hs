@@ -25,6 +25,7 @@ module Crossref (
   , Date(..)
   , PartialDate(..)
   , License(..)
+  , Link(..)
   , Review(..)
   , ReviewStage(..)
   , reviewStages

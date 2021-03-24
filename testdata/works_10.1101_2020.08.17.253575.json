@@ -1,0 +1,1280 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "institution": {
+      "name": "bioRxiv",
+      "place": [
+        "-"
+      ],
+      "acronym": [
+        "-"
+      ]
+    },
+    "indexed": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          19
+        ]
+      ],
+      "date-time": "2020-08-19T23:11:08Z",
+      "timestamp": 1597878668116
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          17
+        ]
+      ]
+    },
+    "group-title": "Cancer Biology",
+    "reference-count": 167,
+    "publisher": "Cold Spring Harbor Laboratory",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          17
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Lung cancer is one of the leading causes of cancer-related deaths worldwide and is characterized by hijacking immune system for active growth and aggressive metastasis. Neutrophils, which in their original form should establish immune activities to the tumor as a first line of defense, are undermined by tumor cells to promote tumor invasion in several ways. In this study, we investigate the mutual interactions between the tumor cells and the neutrophils that facilitate tumor invasion by developing a mathematical model that involves taxis-reaction-diffusion equations for the critical components in the interaction. These include the densities of tumor and neutrophils, and the concentrations of signaling molecules and structure such as neutrophil extracellular traps (NETs). We apply the mathematical model to a Boyden invasion assay used in the experiments to demonstrate that the tumor-associated neutrophils can enhance tumor cell invasion by secreting the neutrophil elastase. We show that the model can both reproduce the major experimental observation on NET-mediated cancer invasion and make several important predictions to guide future experiments with the goal of the development of new anti-tumor strategies. Moreover, using this model, we investigate the fundamental mechanism of NET-mediated invasion of cancer cells and the impact of internal and external heterogeneity on the migration patterning of tumour cells and their response to different treatment schedules.</jats:p><jats:sec><jats:title>Author summary</jats:title><jats:p>When cancer patients are diagnosed with tumours at a primary site, the cancer cells are often found in the blood or already metastasized to the secondary sites in other organs. These metastatic cancer cells are more resistant to major anti-cancer therapies, and lead to the low survival probability. Until recently, the role of neutrophils, specifically tumor-associated neutrophils as a member of complex tumor microenvironment, has been ignored for a long time due to technical difficulties in tumor biology but these neutrophils are emerging as an important player in regulation of tumor invasion and metastasis. The mutual interaction between a tumor and neutrophils from bone marrow or in blood induces the critical transition of the naive form, called the N1 type, to the more aggressive phenotype, called the N2 TANs, which then promotes tumor invasion. In this article, we investigate how stimulated neutrophils with different N1 and N2 landscapes shape the metastatic potential of the lung cancers. Our simulation framework is designed for boyden invasion chamber in experiments and based on a mathematical model that describes how tumor cells interact with neutrophils and N2 TANs can promote tumor cell invasion. We demonstrate that the efficacy of anti-tumor (anti-invasion) drugs depend on this critical communication and N1 → N2 landscapes of stimulated neutrophils.</jats:p></jats:sec>",
+    "DOI": "10.1101/2020.08.17.253575",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          18
+        ]
+      ],
+      "date-time": "2020-08-18T10:45:24Z",
+      "timestamp": 1597747524000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Role of neutrophil extracellular traps in regulation of lung cancer invasion and metastasis: Structural Insights from a Computational Model"
+    ],
+    "prefix": "10.1101",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0003-4342-5693",
+        "authenticated-orcid": false,
+        "given": "Junho",
+        "family": "Lee",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Donggu",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sean",
+        "family": "Lawler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-8905-8481",
+        "authenticated-orcid": false,
+        "given": "Yangjin",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "246",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.1",
+        "doi-asserted-by": "crossref",
+        "first-page": "17286",
+        "DOI": "10.1038/s41598-019-53461-2",
+        "article-title": "Deep Segmentation Networks Predict Survival of Non-Small Cell Lung Cancer",
+        "volume": "9",
+        "year": "2019",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.2",
+        "unstructured": "Organization WH . Cancer. World Health Organization; 2018."
+      },
+      {
+        "issue": "10",
+        "key": "2020081915501512000_2020.08.17.253575v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "601",
+        "DOI": "10.1038/s41571-019-0222-4",
+        "article-title": "Tumour-associated Neutrophils in Patients With Cancer",
+        "volume": "16",
+        "year": "2019",
+        "journal-title": "Nat Rev Clin Oncol"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.4",
+        "unstructured": "Leach J , Morton JP , Sansom OJ . Neutrophils: Homing in on the myeloid mechanisms of metastasis. Mol Immunol. 2017;pii: S0161-5890(17):30615–6."
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.5",
+        "DOI": "10.1189/jlb.5MR1216-508R",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.6",
+        "DOI": "10.1016/j.critrevonc.2011.06.004",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.7",
+        "volume": "2016",
+        "first-page": "6058147",
+        "year": "2016",
+        "article-title": "Tumor-Associated Macrophages and Neutrophils in Tumor Microenvironment",
+        "journal-title": "Mediators Inflamm"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.8",
+        "volume": "120",
+        "first-page": "137",
+        "year": "2018",
+        "article-title": "Predicting outcomes in patients with advanced non-small cell lung cancer enrolled in early phaseimmunotherapy trials",
+        "journal-title": "Lung Cancer",
+        "DOI": "10.1016/j.lungcan.2018.03.020",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "issue": "3",
+        "key": "2020081915501512000_2020.08.17.253575v1.9",
+        "first-page": "3098",
+        "article-title": "Prognostic significance of the neutrophil to lymphocyte ratio in patients with non-small cell lung cancer: a systemic review and meta-analysis",
+        "volume": "8",
+        "year": "2015",
+        "journal-title": "Int J Clin Exp Med"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.10",
+        "DOI": "10.1038/nm.2084",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.11",
+        "first-page": "83",
+        "article-title": "Neutrophil alveolitis in bronchioloalveolar carcinoma: induction by tumor-derived interleukin-8 and relation to clinical outcome",
+        "volume": "152",
+        "year": "1998",
+        "journal-title": "Am J Pathol"
+      },
+      {
+        "issue": "2",
+        "key": "2020081915501512000_2020.08.17.253575v1.12",
+        "first-page": "337",
+        "article-title": "The prognostic value of polymorphonuclear leukocyte elastase in patients with primary breast cancer",
+        "volume": "63",
+        "year": "2003",
+        "journal-title": "Cancer Res"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.13",
+        "DOI": "10.1007/s00281-013-0384-6",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "329",
+        "DOI": "10.1111/imr.12459",
+        "article-title": "Neutrophils in the tumor microenvironment: trying to heal the wound that cannot heal",
+        "volume": "273",
+        "year": "2016",
+        "journal-title": "Immunol Rev"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.15",
+        "DOI": "10.1002/ijc.2910350119",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.16",
+        "DOI": "10.4049/jimmunol.174.9.5472",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "xx",
+        "key": "2020081915501512000_2020.08.17.253575v1.17",
+        "first-page": "xx",
+        "article-title": "The role of neutrophils in cancer",
+        "volume": "xx",
+        "year": "2018",
+        "journal-title": "Br Med Bull"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.18",
+        "DOI": "10.1007/BF00917906",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.19",
+        "DOI": "10.1002/ijc.29945",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.20",
+        "DOI": "10.1182/blood-2003-08-2806",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.21",
+        "DOI": "10.1158/2159-8290.CD-15-1157",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.22",
+        "DOI": "10.1038/nature16140",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.23",
+        "DOI": "10.1038/nature14282",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.24",
+        "DOI": "10.1172/JCI67484",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.25",
+        "DOI": "10.1016/S0002-9440(10)63580-8",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.26",
+        "unstructured": "Shaul ME , Levy L , Sun J , Mishalian I , Singhal S , Kapoor V , et al. Tumor-associated neutrophils display a distinct N1 profile following TGFbeta modulation: A transcriptomics analysis of pro-vs. antitumor TANs. Oncoimmunology. 2016;5(11).",
+        "DOI": "10.1080/2162402X.2016.1232221",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.27",
+        "DOI": "10.1126/scitranslmed.aag1711",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.28",
+        "DOI": "10.1038/s41598-017-09062-y",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.29",
+        "DOI": "10.1038/bjc.2016.255",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "3",
+        "key": "2020081915501512000_2020.08.17.253575v1.30",
+        "doi-asserted-by": "crossref",
+        "first-page": "401",
+        "DOI": "10.1007/s00285-009-0307-2",
+        "article-title": "Transformed epithelial cells and fibroblasts/myofibroblasts interaction in breast tumor: a mathematical model and experiments",
+        "volume": "61",
+        "year": "2010",
+        "journal-title": "J Math Biol"
+      },
+      {
+        "issue": "5",
+        "key": "2020081915501512000_2020.08.17.253575v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1029",
+        "DOI": "10.1007/s11538-009-9481-z",
+        "article-title": "Interaction of tumor with its microenvironment : A Mathematical Model",
+        "volume": "72",
+        "year": "2010",
+        "journal-title": "Bull Math Biol"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.32",
+        "DOI": "10.1016/j.pbiomolbio.2011.06.006",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.33",
+        "unstructured": "Shaul ME , Fridlender ZG . Cancer related circulating and tumor-associated neutrophils - subtypes, sources and function. FEBS J. 2018;Epub ahead of print.",
+        "DOI": "10.1111/febs.14524",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1016/j.ccell.2016.06.016",
+        "article-title": "Tumor-Associated Neutrophils Show Phenotypic and Functional Divergence in Human Lung Cancer",
+        "volume": "30",
+        "year": "2016",
+        "journal-title": "Cancer Cell"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.35",
+        "DOI": "10.1016/j.ccr.2009.06.017",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "32",
+        "key": "2020081915501512000_2020.08.17.253575v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "33165",
+        "DOI": "10.18632/oncotarget.5320",
+        "article-title": "Vesicular stomatitis virus expressing interferon-β is oncolytic and promotes antitumor immune responses in a syngeneic murine model of non-small cell lung cancer",
+        "volume": "6",
+        "year": "2015",
+        "journal-title": "Oncotarget"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.37",
+        "DOI": "10.1038/nature01850",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "2",
+        "key": "2020081915501512000_2020.08.17.253575v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.1016/j.chest.2017.03.056",
+        "article-title": "The Role of Neutrophil Elastase Inhibitors in Lung Diseases",
+        "volume": "152",
+        "year": "2017",
+        "journal-title": "Chest"
+      },
+      {
+        "issue": "7",
+        "key": "2020081915501512000_2020.08.17.253575v1.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "66",
+        "DOI": "10.1038/s41408-018-0099-y",
+        "article-title": "Tumor-associated neutrophils correlate with poor prognosis in diffuse large B-cell lymphoma patients",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Blood Cancer J"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.40",
+        "DOI": "10.1016/S1470-2045(04)01414-7",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.41",
+        "DOI": "10.1186/s12890-015-0048-5",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.42",
+        "DOI": "10.2174/187152012800617696",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.43",
+        "DOI": "10.1080/110241502321116541",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.44",
+        "volume": "18",
+        "first-page": "885",
+        "year": "1998",
+        "article-title": "Complete inhibition of spontaneous pulmonary metastasis of human lung carcinoma cell line EBC-1 by a neutrophil elastase inhibitor (ONO-5046.Na)",
+        "journal-title": "Anticancer Res"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.45",
+        "DOI": "10.1073/pnas.86.15.5859",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.46",
+        "DOI": "10.1002/ijc.11297",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.47",
+        "DOI": "10.1093/carcin/bgs123",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.48",
+        "DOI": "10.1038/nri3024",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.49",
+        "DOI": "10.1016/j.immuni.2016.12.012",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.50",
+        "unstructured": "Granger DN , Senchenkova E. Inflammation and the Microcirculation. San Rafael (CA): Morgan and Claypool Life Sciences; 2010."
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.51",
+        "DOI": "10.1161/01.RES.79.3.560",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.52",
+        "unstructured": "Eppihimer MJ , Granger DN . Endothelial cell adhesion molecule expression in acutely inflamed tissues. In: Yearbook of intensive Care and Emergency Medicine 1997. Springer, Berlin, Heidelberg; 1997. p. 52–62.",
+        "DOI": "10.1007/978-3-662-13450-4_5",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "issue": "4",
+        "key": "2020081915501512000_2020.08.17.253575v1.53",
+        "first-page": "1825",
+        "article-title": "Cytokine-induced VCAM-1 and ICAM-1 expression in different organs of the mouse",
+        "volume": "158",
+        "year": "1997",
+        "journal-title": "J Immunol"
+      },
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.54",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.1038/s41392-020-0134-x",
+        "article-title": "Molecular Principles of Metastasis: A Hallmark of Cancer Revisited",
+        "volume": "5",
+        "year": "2020",
+        "journal-title": "Signal Transduct Target Ther"
+      },
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.55",
+        "doi-asserted-by": "crossref",
+        "first-page": "14219",
+        "DOI": "10.1038/s41598-017-14340-w",
+        "article-title": "MMP Proteolytic Activity Regulates Cancer Invasiveness by Modulating Integrins",
+        "volume": "7",
+        "year": "2017",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.56",
+        "DOI": "10.1016/j.jtbi.2009.06.025",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.57",
+        "DOI": "10.1038/nrc3078",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.58",
+        "volume": "33",
+        "first-page": "388",
+        "year": "1995",
+        "journal-title": "Finite time blow up in some models of chemotaxis"
+      },
+      {
+        "issue": "4",
+        "key": "2020081915501512000_2020.08.17.253575v1.59",
+        "doi-asserted-by": "crossref",
+        "first-page": "1044",
+        "DOI": "10.1137/S0036139995288976",
+        "article-title": "Aggregation, Blowup, and collapse : The ABC’s of taxis in reinforced random walks",
+        "volume": "57",
+        "year": "1997",
+        "journal-title": "SIAM J APPL MATH"
+      },
+      {
+        "issue": "3/4",
+        "key": "2020081915501512000_2020.08.17.253575v1.60",
+        "first-page": "251",
+        "article-title": "Simultaneous blowup and mass separation during collapse in an interacting systems of chemotactic species",
+        "volume": "25",
+        "year": "2014",
+        "journal-title": "Diff Integr Equ"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.61",
+        "volume": "29",
+        "first-page": "317",
+        "year": "2009",
+        "article-title": "Simultaneous finite time blow-up in a two-species model for chemotaxis",
+        "journal-title": "Analysis"
+      },
+      {
+        "issue": "5/6",
+        "key": "2020081915501512000_2020.08.17.253575v1.62",
+        "first-page": "451",
+        "article-title": "A Note on non-simultaneous blow-up for a drift-diffusion model",
+        "volume": "23",
+        "year": "2010",
+        "journal-title": "Diff Integr Equ"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.63",
+        "DOI": "10.1152/ajpregu.00320.2011",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.64",
+        "unstructured": "Uribe-Querol E , Rosales C. Neutrophils in Cancer: Two Sides of the Same Coin. J Immunol Res. 2015;2015::983698.",
+        "DOI": "10.1155/2015/983698",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.65",
+        "DOI": "10.1038/sj.bjc.6602227",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.66",
+        "DOI": "10.1038/nbt712",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.67",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0211041",
+        "DOI": "10.1371/journal.pone.0211041",
+        "article-title": "Role of tumor-associated neutrophils in regulation of tumor growth in lung cancer development: A mathematical model",
+        "volume": "14",
+        "year": "2019",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "5",
+        "key": "2020081915501512000_2020.08.17.253575v1.68",
+        "first-page": "6058147",
+        "article-title": "Blockade of Only TGF-β 1 and 2 Is Sufficient to Enhance the Efficacy of Vaccine and PD-1 Checkpoint Blockade Immunotherapy",
+        "volume": "6",
+        "year": "2016",
+        "journal-title": "Oncoimmunology"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.69",
+        "DOI": "10.1158/0008-5472.CAN-08-1494",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.70",
+        "first-page": "2365",
+        "article-title": "Fibroblast-associated tumour microenvironment induces vascular structure-networked tumouroid",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Src Rep"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.71",
+        "DOI": "10.1038/s41568-019-0222-9",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.72",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1038/s41568-018-0081-9",
+        "article-title": "The lung microenvironment: an important regulator of tumour growth and metastasis",
+        "volume": "19",
+        "year": "2019",
+        "journal-title": "Nat Rev Cancer"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.73",
+        "DOI": "10.1038/nrm3904",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.74",
+        "DOI": "10.1378/chest.121.5_suppl.151S",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.75",
+        "DOI": "10.1002/hep.25907",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.76",
+        "DOI": "10.1158/1538-7445.AM2012-3546",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.77",
+        "DOI": "10.1038/nrc3603",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.78",
+        "DOI": "10.1158/1078-0432.CCR-03-0760",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.79",
+        "DOI": "10.3109/01902148.2010.489143",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "12",
+        "key": "2020081915501512000_2020.08.17.253575v1.80",
+        "doi-asserted-by": "crossref",
+        "first-page": "1828",
+        "DOI": "10.1038/bjc.2017.362",
+        "article-title": "Dual Roles of Tumour Cells-Derived Matrix Metalloproteinase 2 on Brain Tumour Growth and Invasion",
+        "volume": "117",
+        "year": "2017",
+        "journal-title": "Br J Cancer"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.81",
+        "DOI": "10.1016/S0092-8674(00)00139-2",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.82",
+        "DOI": "10.1073/pnas.1116327108",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.83",
+        "DOI": "10.1038/cgt.2009.59",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.84",
+        "DOI": "10.1038/nrc.2016.115",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.85",
+        "DOI": "10.1007/s002850200161",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.86",
+        "volume": "136",
+        "first-page": "35",
+        "year": "1996",
+        "article-title": "A model of wound healing angiogenesis in soft-tissue",
+        "journal-title": "Math Bios",
+        "DOI": "10.1016/0025-5564(96)00044-2",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.87",
+        "unstructured": "Bray D. Cell movements. New York: Gerland; 1992."
+      },
+      {
+        "issue": "3",
+        "key": "2020081915501512000_2020.08.17.253575v1.88",
+        "first-page": "519",
+        "article-title": "The role of the tumor microenvironment in glioblastoma: A mathematical model",
+        "volume": "64",
+        "year": "2017",
+        "journal-title": "IEEE Trans Biomed Eng"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.89",
+        "DOI": "10.1016/0022-1759(94)00314-M",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.90",
+        "DOI": "10.1007/s12195-008-0016-8",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.91",
+        "DOI": "10.1046/j.1471-4159.1999.0720943.x",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "3",
+        "key": "2020081915501512000_2020.08.17.253575v1.92",
+        "first-page": "97",
+        "article-title": "Bone growth factors: potential for use as an osseointegration enhancement technique (OET)",
+        "volume": "43",
+        "year": "1995",
+        "journal-title": "J West Soc Periodontol Periodontal Abstr"
+      },
+      {
+        "issue": "5",
+        "key": "2020081915501512000_2020.08.17.253575v1.93",
+        "doi-asserted-by": "crossref",
+        "first-page": "331",
+        "DOI": "10.1111/j.1440-1681.1993.tb01697.x",
+        "article-title": "A low affinity, low molecular weight endothelin-A receptor present in neonatal rat heart",
+        "volume": "20",
+        "year": "1993",
+        "journal-title": "Clin Exp Pharmacol Physiol"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.94",
+        "DOI": "10.1021/bm9000926",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.95",
+        "DOI": "10.1002/jbm.a.32134",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.96",
+        "DOI": "10.1172/JCI6092",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.97",
+        "DOI": "10.1021/bi00049a032",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.98",
+        "DOI": "10.1021/bi00649a017",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "2",
+        "key": "2020081915501512000_2020.08.17.253575v1.99",
+        "doi-asserted-by": "crossref",
+        "first-page": "519",
+        "DOI": "10.1111/j.1432-1033.1974.tb03367.x",
+        "article-title": "The neutral proteases of human granulocytes. Isolation and partial characterization of granulocyte elastases",
+        "volume": "42",
+        "year": "1974",
+        "journal-title": "Eur J Biochem"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.100",
+        "DOI": "10.1126/science.1099179",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.101",
+        "volume": "B241",
+        "first-page": "29",
+        "year": "1990",
+        "article-title": "Models of epidermal wound healing",
+        "journal-title": "ProcR SocLond"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.102",
+        "DOI": "10.1007/BF00541152",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.103",
+        "DOI": "10.1152/ajpcell.00557.2001",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.104",
+        "DOI": "10.1083/jcb.105.2.965",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.105",
+        "DOI": "10.1016/S0736-5748(99)00048-9",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.106",
+        "DOI": "10.1023/A:1023039230052",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.107",
+        "DOI": "10.1203/01.PDR.0000141523.68664.4A",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.108",
+        "DOI": "10.1093/infdis/164.2.383",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.109",
+        "volume": "367",
+        "first-page": "83",
+        "year": "1991",
+        "article-title": "Markers of endotoxin related leukocyte activation and injury mechanisms",
+        "journal-title": "Prog Clin Biol Res"
+      },
+      {
+        "issue": "10",
+        "key": "2020081915501512000_2020.08.17.253575v1.110",
+        "doi-asserted-by": "crossref",
+        "first-page": "2733",
+        "DOI": "10.1182/blood.V79.10.2733.2733",
+        "article-title": "Transcriptional and posttranscriptional modulation of human neutrophil elastase gene expression",
+        "volume": "79",
+        "year": "1992",
+        "journal-title": "Blood"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.111",
+        "DOI": "10.1016/j.bmcl.2015.08.049",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.112",
+        "unstructured": "Gnamm C , Oost T , Peters S. 20140221335 A1. US Patent. 2014;."
+      },
+      {
+        "issue": "4",
+        "key": "2020081915501512000_2020.08.17.253575v1.113",
+        "doi-asserted-by": "crossref",
+        "first-page": "1091",
+        "DOI": "10.3892/mmr.2013.1318",
+        "article-title": "Sivelestat sodium hydrate reduces radiation-induced lung injury in mice by inhibiting neutrophil elastase",
+        "volume": "7",
+        "year": "2013",
+        "journal-title": "Mol Med Rep"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.114",
+        "volume": "54",
+        "first-page": "267",
+        "year": "1997",
+        "article-title": "General pharmacological studies of sodium N-[2-[4-(2,2-dimethethyl-propionyloxy) phenylsulfonylamino] benzoyl] aminoacetate tetrahydrate (ONO-5046 Na)",
+        "journal-title": "Pharmacometrics"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.115",
+        "DOI": "10.1016/0167-4838(91)90078-E",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "4",
+        "key": "2020081915501512000_2020.08.17.253575v1.116",
+        "doi-asserted-by": "crossref",
+        "first-page": "433",
+        "DOI": "10.1179/1743132810Y.0000000012",
+        "article-title": "Brain Distribution and Elimination of Recombinant Human TIMP-1 After Cerebral Ischemia and Reperfusion in Rats",
+        "volume": "33",
+        "year": "2011",
+        "journal-title": "Neurol Res"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.117",
+        "volume": "9",
+        "first-page": "4479",
+        "year": "2015",
+        "article-title": "Clinical development of galunisertib (LY2157299 monohydrate), a small molecule inhibitor of transforming growth factor-beta signaling pathway. Drug Design",
+        "journal-title": "Development and Therapy"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.118",
+        "DOI": "10.1046/j.1365-2249.1998.00647.x",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.119",
+        "DOI": "10.1016/S0022-5193(05)80201-2",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.120",
+        "DOI": "10.1016/S0959-8049(99)00125-2",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.121",
+        "DOI": "10.1016/j.jtbi.2003.10.015",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.122",
+        "DOI": "10.1007/BF00161199",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.123",
+        "DOI": "10.4049/jimmunol.166.12.7556",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.124",
+        "volume": "20",
+        "issue": "1&2",
+        "first-page": "59",
+        "year": "1995",
+        "journal-title": "Effective permeability of the boundary of a domain. Commun In Partial differential equations"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.125",
+        "unstructured": "Lodish H , Berk A , Zipursky SL , Matsudaira P , Baltimore D , Darnell J. Molecular Cell Biology. 4th ed. New York: W. H. Freeman; 2000."
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.126",
+        "DOI": "10.1098/rsta.2009.0095",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.127",
+        "DOI": "10.1007/s002850000038",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.128",
+        "DOI": "10.1126/science.1092385",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.129",
+        "volume": "9",
+        "first-page": "1509",
+        "year": "2019",
+        "article-title": "Transcriptomic Profiles of Tumor-Associated Neutrophils Reveal Prominent Roles in Enhancing Angiogenesis in Liver Tumorigenesis in Zebrafish",
+        "journal-title": "Scientific Reports",
+        "DOI": "10.1038/s41598-018-36605-8",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "issue": "4",
+        "key": "2020081915501512000_2020.08.17.253575v1.130",
+        "doi-asserted-by": "crossref",
+        "first-page": "e305",
+        "DOI": "10.5301/JBM.2012.10437",
+        "article-title": "Thrombin Stimulation of Inflammatory Breast Cancer Cells Leads to Aggressiveness via the EGFR-PAR1-Pak1 Pathway",
+        "volume": "27",
+        "year": "2012",
+        "journal-title": "Int J Biol Markers"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.131",
+        "DOI": "10.1517/14728222.2011.532788",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.132",
+        "DOI": "10.1016/j.jtbi.2008.04.011",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.133",
+        "doi-asserted-by": "crossref",
+        "first-page": "13",
+        "DOI": "10.1186/s12865-018-0251-2",
+        "article-title": "Neutrophils in primary gastric tumors are correlated with neutrophil infiltration in tumor-draining lymph nodes and the systemic inflammatory response",
+        "volume": "19",
+        "year": "2018",
+        "journal-title": "BMC Immunol"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.134",
+        "volume": "7",
+        "first-page": "43001",
+        "year": "2017",
+        "article-title": "Preoperative red cell distribution width and neutrophil-to-lymphocyte ratio predict survival in patients with epithelial ovarian cancer",
+        "journal-title": "Sci Rep",
+        "DOI": "10.1038/srep43001",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.135",
+        "doi-asserted-by": "crossref",
+        "first-page": "7535",
+        "DOI": "10.1038/s41598-020-64282-z",
+        "article-title": "An elevated neutrophil-to-lymphocyte ratio associates with weight loss and cachexia in cancer",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.136",
+        "doi-asserted-by": "crossref",
+        "first-page": "753",
+        "DOI": "10.1038/s41598-017-00859-5",
+        "article-title": "Significance of baseline and change in neutrophil-to-lymphocyte ratio in predicting prognosis: a retrospective analysis in advanced pancreatic ductal adenocarcinoma",
+        "volume": "7",
+        "year": "2017",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "issue": "7–8",
+        "key": "2020081915501512000_2020.08.17.253575v1.137",
+        "first-page": "1185",
+        "article-title": "Relationship Between the Neutrophil to Lymphocyte Ratio and Parathyroid Adenoma Size in Patients With Primary Hyperparathyroidism",
+        "volume": "100",
+        "year": "2015",
+        "journal-title": "Int Surg"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.138",
+        "volume": "13",
+        "first-page": "291",
+        "year": "2015",
+        "article-title": "Preoperative neutrophil/lymphocyte ratio and prognostic nutritional index predict survival in patients with non-small cell lung cancer",
+        "journal-title": "World J Surg Oncol",
+        "DOI": "10.1186/s12957-015-0710-7",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.139",
+        "DOI": "10.1038/nature08734",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "3",
+        "key": "2020081915501512000_2020.08.17.253575v1.140",
+        "doi-asserted-by": "crossref",
+        "first-page": "259",
+        "DOI": "10.1097/JTO.0b013e318279e942",
+        "article-title": "Combined treatment with erlotinib and a transforming growth factor-β type I receptor inhibitor effectively suppresses the enhanced motility of erlotinib-resistant non-small-cell lung cancer cells",
+        "volume": "8",
+        "year": "2013",
+        "journal-title": "J Thorac oncol"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.141",
+        "DOI": "10.1007/s11538-012-9787-0",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.142",
+        "unstructured": "Kim Y , Lim S. The role of the microenvironment in tumor invasion. 2009 Proceedings of the Fourth SIAM Conference on Mathematics for Industry. 2010; p. 84–92.",
+        "DOI": "10.1137/1.9781611973303.10",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.143",
+        "DOI": "10.1073/pnas.1513616113",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "issue": "24",
+        "key": "2020081915501512000_2020.08.17.253575v1.144",
+        "first-page": "3844",
+        "article-title": "Blocking TGF-β Inhibits Breast Cancer Cell Invasiveness via ERK/S100A4 Signal",
+        "volume": "18",
+        "year": "2014",
+        "journal-title": "Eur Rev Med Pharmacol Sci"
+      },
+      {
+        "issue": "13",
+        "key": "2020081915501512000_2020.08.17.253575v1.145",
+        "first-page": "3414",
+        "article-title": "Reproductive state of rat mammary gland stroma modulates human breast cancer cell migration and invasion",
+        "volume": "60",
+        "year": "2000",
+        "journal-title": "Cancer Res"
+      },
+      {
+        "issue": "6",
+        "key": "2020081915501512000_2020.08.17.253575v1.146",
+        "doi-asserted-by": "crossref",
+        "first-page": "507",
+        "DOI": "10.1038/s41422-020-0337-2",
+        "article-title": "The future of cancer immunotherapy: microenvironment-targeting combinations",
+        "volume": "30",
+        "year": "2020",
+        "journal-title": "Cell Res"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.147",
+        "volume": "9",
+        "first-page": "1146",
+        "year": "2019",
+        "article-title": "Tumor Associated Neutrophils. Their Role in Tumorigenesis, Metastasis, Prognosis and Therapy",
+        "journal-title": "Front Oncol",
+        "DOI": "10.3389/fonc.2019.01146",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.148",
+        "doi-asserted-by": "crossref",
+        "first-page": "16569",
+        "DOI": "10.1038/s41598-018-34983-7",
+        "article-title": "Immune Cells Inhibit the Tumor Metastasis in the 4D Cellular Lung Model by Reducing the Number of Live Circulating Tumor Cells",
+        "volume": "8",
+        "year": "2018",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.149",
+        "DOI": "10.1158/0008-5472.CAN-10-2583",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.150",
+        "DOI": "10.1038/nm.3394",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.151",
+        "unstructured": "Brostjan C , Oehler R. The role of neutrophil death in chronic inflammation and cancer. Cell Death Discov. 2020;6(26).",
+        "DOI": "10.1038/s41420-020-0255-6",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.152",
+        "DOI": "10.1158/1541-7786.MCR-17-0003",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.153",
+        "DOI": "10.1002/ijc.30635",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.154",
+        "unstructured": "Albrengues J , Shields MA , Ng D , Park CG , Ambrico A , Poindexter ME , et al. Neutrophil extracellular traps produced during inflammation awaken dormant cancer cells in mice. Science. 2018;361(6409).",
+        "DOI": "10.1126/science.aao4227",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.155",
+        "volume": "583",
+        "first-page": "33",
+        "year": "2020",
+        "article-title": "A safety net causes cancer cells to migrate and grow",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.156",
+        "DOI": "10.1038/s41586-020-2394-6",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.157",
+        "DOI": "10.1038/nrc3628",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.158",
+        "DOI": "10.1158/0008-5472.CAN-09-4442",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.159",
+        "volume": "17",
+        "first-page": "1773",
+        "year": "2007",
+        "article-title": "A hybrid model for tumor spheroid growth in vitro I: Theoretical development and early results",
+        "journal-title": "Math Models Methods in Appl Scis",
+        "DOI": "10.1142/S0218202507002479",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "issue": "10",
+        "key": "2020081915501512000_2020.08.17.253575v1.160",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0204865",
+        "DOI": "10.1371/journal.pone.0204865",
+        "article-title": "Role of extracellular matrix and microenvironment in regulation of tumor growth and LAR-mediated invasion in glioblastoma",
+        "volume": "13",
+        "year": "2018",
+        "journal-title": "PLoS One"
+      },
+      {
+        "issue": "1",
+        "key": "2020081915501512000_2020.08.17.253575v1.161",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0114370",
+        "DOI": "10.1371/journal.pone.0114370",
+        "article-title": "Strategies of eradicating glioma cells: A multi-scale mathematical model with miR-451-AMPK-mTOR control",
+        "volume": "10",
+        "year": "2015",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.162",
+        "DOI": "10.1371/journal.pone.0171312",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.163",
+        "volume": "375",
+        "first-page": "20190390",
+        "year": "2020",
+        "article-title": "Collective invasion of glioma cells through OCT1 signalling and interaction with reactive astrocytes after surgery",
+        "journal-title": "Phil Trans R Soc B",
+        "DOI": "10.1098/rstb.2019.0390",
+        "doi-asserted-by": "crossref"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.164",
+        "DOI": "10.1158/0008-5472.CAN-15-0894",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.165",
+        "DOI": "10.1073/pnas.1715295115",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.166",
+        "DOI": "10.1038/s41556-018-0236-7",
+        "doi-asserted-by": "publisher"
+      },
+      {
+        "key": "2020081915501512000_2020.08.17.253575v1.167",
+        "DOI": "10.1038/aps.2015.92",
+        "doi-asserted-by": "publisher"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2020.08.17.253575",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          19
+        ]
+      ],
+      "date-time": "2020-08-19T22:51:32Z",
+      "timestamp": 1597877492000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          17
+        ]
+      ]
+    },
+    "references-count": 167,
+    "URL": "http://dx.doi.org/10.1101/2020.08.17.253575",
+    "relation": {
+      "cites": []
+    },
+    "subtype": "preprint"
+  }
+}
